@@ -1,0 +1,26 @@
+
+@import 'rem-converter';
+@import 'colors';
+@import url('https://fonts.googleapis.com/css2?family=Cormorant+Infant:wght@400;700&family=Sacramento&display=swap');
+
+$sacramento: "Sacramento", cursive;
+$cormorant: "Cormorant Infant", serif;
+
+h1, h2, h4 {
+    font-family: $sacramento;
+    font-weight: bold;
+}
+
+h1, h4 {
+    color: $darkbrown;
+    stroke: $mediumbrown;
+}
+
+h3, h5 {
+    font-family: $cormorant;
+    font-weight: bold;    
+}
+
+p, main {
+    
+}

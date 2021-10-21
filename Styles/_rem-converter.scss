@@ -1,0 +1,14 @@
+// I found this function I wanted to try to use to convert pixels into rem. I found 
+// mixins with @use but because I have been using the web compiler and @use apparently isn't supported by
+// it, I tried this instead. 
+// Source: medium.com/@bhargav3shah/scss-convert-pixel-values-to-rem-using-functions-f1cef575edfd
+
+$html-font-size: 16px;
+
+@function stripUnit($value) {
+    @return $value / ($value * 0 + 1);
+}
+
+@function rem($pxValue) {
+    @return #{stripUnit($pxValue) / stripUnit($html-font-size)}rem;
+}
