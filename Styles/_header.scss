@@ -6,7 +6,7 @@ header {
     background-color: $yellow;
     width: 100%;
     margin: auto;
-    padding: .5rem 0rem .5rem 0rem;
+    padding-top: .5rem;
 }
 
 .logo {
@@ -24,4 +24,11 @@ header {
 nav ul {
     display: flex;
     justify-content: space-evenly;
+    padding-bottom: .5rem;
+}
+
+.doily_top {
+    background: url('/Images/doily-top.png');
+    width: 100%;
+    height: rem(28px);
 }
