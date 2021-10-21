@@ -26,6 +26,7 @@ nav ul {
 .doily {
     width: 100%;
     height: rem(28px);
+    object-fit: cover;
     
     &.top {
         background: url('/Images/doily-top.png');
