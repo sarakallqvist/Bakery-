@@ -14,7 +14,7 @@
     <header>
         <div class="logo">
             <h1>Regina Bakery</h1>
-            <i class="fas fa-crown"></i>
+            <i class="fas fa-crown logo-crown"></i>
         </div>
         <div class="navwrapper">
             <nav>
@@ -37,47 +37,59 @@
     <main>
     </main>
 
-    <footer>
+    <footer class="d-flex flex-column">
 
-        <div class="doily bottom"></div>
+    <div class="doily bottom"></div>
 
-    <div class="info-box">
-        <h4>Hours</h4>
-            <div class="info-box__details">
-                <div>
-                    <div>
-                        <h5>Closed</h5>
+    <div class="d-flex justify-content-between">
+
+        <div class="container info-box">
+            <div class="row">
+                <h4 class="text-center">Hours</h4>
+                <div class="col">
+                    <div class="row align-items-baseline justify-content-center">
+                        <h5 class="squish min">Closed</h5>
+                        <span class="squish">Monday and Tuesday</span>
                     </div>
-                    <div>
-                        <p>Monday and Tuesday</p>
+                    <div class="row align-items-baseline justify-content-center">
+                        <h5 class="squish min">Open</h5>
+                        <span class="squish">Wednesday - Sunday<br />
+                        7:00 am to 6:00 pm</span>
                     </div>
-                </div>
-                <div>
-                    <h5>Open</h5>
-                    <p>Wednesday - Sunday<br />
-                    7:00 am to 6:00 pm</p>
                 </div>
             </div>
+        </div>
+        
+        <div class="container d-flex flex-column justify-content-center flex-grow-1">
+                <h4 class="text-center">Locations</h4> 
+            <div class="container d-flex justify-content-evenly">
+                <div class="row align-items-center justify-content-center">
+                        <h5 class="col">Downtown</h5>
+                        <div class="col brown-separator">517 Streety McStreet Street<br />
+                            Suite A<br />
+                            Glorbgleton, 55442<br />
+                            P: 555-555-12-12
+                        </div>
+                </div>
+                        <div class="row align-items-center justify-content-center">
+                <h5 class="col">Marina District</h5>
+                <div class="col">Old Salty’s Boathouse<br />
+                    Salty’s Marina<br />
+                    Huhhuhhinghum, 76645<br />
+                    P: 555-555-21-12</div>
+                    </div>
+                </div>
+            </div>
+            <!-- <div class="container d-flex flex-column justify-content-center logo-footer">
+                <h4>Regina Bakery</h4>
+                <i class="fas fa-crown logo-crown"></i>
+            </div> -->
+        </div>
+<div class="socials text-center">
+    <a href="#"><i class="fab fa-instagram"></i></a>
+    <a href="#"><i class="fab fa-facebook"></i></a>
+    <a href="#"><i class="fab fa-twitter-square"></i></a>
 </div>
-<!-- 
-<div class="locations">
-    <h4>Locations</h4>
-    <div class="locations__listing">
-        <div><h5>Downtown</h5></div>
-        <div>517 Streety McStreet Street<br />
-            Suite A<br />
-            Glorbgleton, 55442<br />
-            P: 555-555-12-12</div>
-    </div>
-    <div class="locations__listing">
-        <div><h5>Marina District</h5></div>
-        <div>Old Salty’s Boathouse<br />
-            Salty’s Marina<br />
-            Huhhuhhinghum, 76645<br />
-            P: 555-555-21-12</div>
-    </div>
-</div> -->
-<div class="socials"></div>
     </footer>
 </body>
 </html>

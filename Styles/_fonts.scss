@@ -21,15 +21,22 @@ h1 {
     padding: 1%;
 }
 
+.logo-crown {
+        transform: rotate(30deg);
+        padding: auto;
+        margin-left: -2%;
+        margin-top: 1%;
+        color: $darkbrown;
+    }
+
 h2 {
     font-size: rem(56px);
 }
 
-h3, h5, p {
+h3, h5, p, div {
     font-family: $cormorant;
     font-weight: bold;
 }
-
 h3, h4 {
     font-size: rem(36px);
 }

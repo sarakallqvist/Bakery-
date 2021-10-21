@@ -15,13 +15,6 @@ header {
 .logo {
     display: flex;
     justify-content: center;
-
-    > i {
-        transform: rotate(30deg);
-        padding: auto;
-        margin-left: -2%;
-        margin-top: 1%;
-    }
 }
 
 nav ul {

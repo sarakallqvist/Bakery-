@@ -1,25 +1,43 @@
+
 footer {
-    padding-bottom: .5rem;
-    display: flex;
-    flex-direction: column;
-    
+    color: $mediumbrown;
 }
 
 .info-box {
-    display: flex;
-    flex-direction: column;
-    text-align: center;
     max-width: 40%;
+}
 
-    &__details {
-        display: flex;
-        flex-direction: row;
+// Hours
 
+.squish {
+    display: inline;
+    max-width: 40%;
+    text-align: center;
+
+    &.min {
+        max-width: min-content;
     }
 }
 
+// Locations
+
+.brown-separator {
+    border-right: dashed 2px $mediumbrown;
+}
+
 .socials {
-    width: 100%;
+    margin-top: 1%;
     background-color: $mediumbrown;
-    height: 5%;
+    height: max-content;
+    padding: 1rem 0rem 1rem 0rem;
+
+    > i, a {
+        color: $yellow;
+        font-size: rem(24px);
+        letter-spacing: rem(6px);
+    }
+
+    a:hover, a:focus {
+        color: $darkbrown
+    }
 }
