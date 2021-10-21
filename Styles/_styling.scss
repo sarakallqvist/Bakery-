@@ -9,4 +9,11 @@ body {
     margin: auto;
     display: flex;
     flex-direction: column;
+    flex-wrap: wrap;
+    align-items: space-between;
+    height: 100%;
+}
+
+main {
+    flex: 1;
 }

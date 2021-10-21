@@ -2,10 +2,13 @@
 @import 'fonts';
 @import 'rem-converter';
 
-header {
+header, footer {
     background-color: $yellow;
     width: 100%;
     margin: auto;
+}
+
+header {
     padding-top: .5rem;
 }
 
@@ -27,8 +30,15 @@ nav ul {
     padding-bottom: .5rem;
 }
 
-.doily_top {
-    background: url('/Images/doily-top.png');
+.doily {
     width: 100%;
     height: rem(28px);
+    
+    &.top {
+        background: url('/Images/doily-top.png');
+    }
+
+    &.bottom {
+        background: url('/Images/doily-bottom.png');
+    }
 }
