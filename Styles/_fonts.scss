@@ -13,7 +13,16 @@ h1, h2, h4 {
 
 h1, h4 {
     color: $darkbrown;
-    stroke: $mediumbrown;
+}
+
+h1 {
+    font-size: rem(48px);
+    text-align: center;
+    padding: 1%;
+}
+
+h2 {
+    font-size: rem(56px);
 }
 
 h3, h5 {
@@ -21,8 +30,21 @@ h3, h5 {
     font-weight: bold;    
 }
 
-p, main {
+h3, h4 {
+    font-size: rem(36px);
+}
+
+nav li a, main, h5 {
+    color: $darkbrown;
     font-family: $cormorant;
     font-weight: bold;
     font-size: rem(24px);
+}
+
+nav li a {
+    text-decoration: none;
+
+    &:hover, &:focus {
+        color: $mediumbrown;
+    }
 }

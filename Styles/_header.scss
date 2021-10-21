@@ -1,0 +1,27 @@
+@import 'colors';
+@import 'fonts';
+@import 'rem-converter';
+
+header {
+    background-color: $yellow;
+    width: 100%;
+    margin: auto;
+    padding: .5rem 0rem .5rem 0rem;
+}
+
+.logo {
+    display: flex;
+    justify-content: center;
+
+    > i {
+        transform: rotate(30deg);
+        padding: auto;
+        margin-left: -2%;
+        margin-top: 1%;
+    }
+}
+
+nav ul {
+    display: flex;
+    justify-content: space-evenly;
+}
