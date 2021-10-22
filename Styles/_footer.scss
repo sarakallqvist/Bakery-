@@ -3,21 +3,11 @@ footer {
     color: $mediumbrown;
 }
 
-.info-box {
-    max-width: 40%;
+.footer-flex {
+    flex: 0 1 auto;
 }
 
 // Hours
-
-.squish {
-    display: inline;
-    max-width: 40%;
-    text-align: center;
-
-    &.min {
-        max-width: min-content;
-    }
-}
 
 // Locations
 
@@ -40,4 +30,8 @@ footer {
     a:hover, a:focus {
         color: $darkbrown
     }
+}
+
+.logo-footer {
+    min-width: max-content;
 }
