@@ -11,7 +11,7 @@ h1, h2, h4 {
     font-weight: bold;
 }
 
-h4, h5, p {
+h5, p, .footer-label {
     color: $darkbrown;
 }
 
@@ -33,7 +33,7 @@ h1 {
     text-decoration: none;
     color: $darkbrown;
 
-     > .logo:hover, .logo:focus {
+     > :hover, :focus {
         color: $mediumbrown;
         }
 }
