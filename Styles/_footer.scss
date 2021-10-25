@@ -6,31 +6,51 @@ footer {
 .footer-container {
     display: flex;
     flex-direction: row;
+    
+    h4 {
+        width: 100%;
+        text-align: center;
+    }
+
 }
 
 .hours {
     display: flex;
-    flex-direction: row;
     flex-wrap: wrap;
     justify-content: center;
     text-align: center;
-
-    h4 {
-        width: 100%;
-    }
+    max-width: 30%;
 
     :nth-child(even) {
         flex-basis: 40%;
     }
 }
 
-// Hours
+.locations {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    flex-grow: 1;
 
-// Locations
+    .location-address {
+        display: flex;
+        flex-grow: 1;
+        align-items: center;
+
+        h5 {
+            padding: 3%;
+            text-align: center;
+        }
+
+        :nth-child(odd) {
+            flex-basis: 30%;
+        }
+    }
+}
 
 .brown-separator {
     border-right: dashed 2px $mediumbrown;
-    margin: .5rem 0rem .5rem 0rem;
+    margin: .5rem;
 }
 
 .socials {
@@ -38,6 +58,7 @@ footer {
     background-color: $mediumbrown;
     height: max-content;
     padding: 1rem 0rem 1rem 0rem;
+    text-align: center;
 
     > i, a {
         color: $yellow;
