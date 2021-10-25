@@ -14,6 +14,20 @@ body {
     height: 100%;
 }
 
+.doily {
+    width: 100%;
+    height: rem(28px);
+    object-fit: cover;
+    
+    &.top {
+        background: url('/Images/doily-top.png');
+    }
+
+    &.bottom {
+        background: url('/Images/doily-bottom.png');
+    }
+}
+
 main {
     flex: 1;
 }

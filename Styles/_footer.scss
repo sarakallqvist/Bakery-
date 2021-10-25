@@ -3,6 +3,27 @@ footer {
     color: $mediumbrown;
 }
 
+.footer-container {
+    display: flex;
+    flex-direction: row;
+}
+
+.hours {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    text-align: center;
+
+    h4 {
+        width: 100%;
+    }
+
+    :nth-child(even) {
+        flex-basis: 40%;
+    }
+}
+
 // Hours
 
 // Locations
@@ -27,8 +48,4 @@ footer {
     a:hover, a:focus {
         color: $darkbrown
     }
-}
-
-.logo-footer {
-    min-width: max-content;
 }
