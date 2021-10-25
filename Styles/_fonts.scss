@@ -10,6 +10,11 @@ $raleway: "Raleway", sans-serif;
 h1, h2, h4 {
     font-family: $sacramento;
     font-weight: bold;
+
+    &.content-header {
+        color: $yellow;
+        text-align: center;
+    }
 }
 
 h3, h5, footer {
@@ -18,7 +23,7 @@ h3, h5, footer {
     color: $darkbrown;
 }
 
-h5, p, .footer-label {
+h5, h4, p, .footer-label {
     color: $darkbrown;
 }
 
@@ -46,7 +51,7 @@ h1 {
 }
 
 h2 {
-    font-size: rem(56px);
+    font-size: rem(48px);
 }
 
 h3, h4 {

@@ -23,7 +23,7 @@ footer {
     flex-shrink: 0;
 
     :nth-child(even) {
-        flex-basis: 40%;
+        flex-basis: 30%;
     }
 }
 
@@ -33,6 +33,7 @@ footer {
 
     .location-address {
         display: flex;
+        justify-content: space-between;
         align-items: center;
         flex-grow: 1;
 
@@ -41,19 +42,22 @@ footer {
             text-align: center;
             flex-basis: 30%;
         }
+
+        p {
+            flex-grow: 1;
+        }
     }
 }
 
 .brown-separator {
     border-right: dashed 2px $mediumbrown;
+    padding-right: 3px;
 }
 
 .wrapper {
     display: flex;
     flex-wrap: wrap;
-    align-items: center;
     justify-content: center;
-    margin: auto;
 }
 
 .footer-logo {
@@ -61,7 +65,6 @@ footer {
 }
 
 .mobile-socials {
-
     a {
     color: $darkbrown;
     font-size: rem(20px);
@@ -74,7 +77,7 @@ footer {
     visibility: hidden;
 }
 
-// Social footer at very bottom
+// Desktop-size socials at very bottom
 
 .socials {
     margin-top: 1%;

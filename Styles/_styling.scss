@@ -8,7 +8,7 @@ body {
     background-color: $darkbrown;
     margin: auto;
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
     flex-wrap: wrap;
     align-items: space-between;
     height: 100%;
@@ -33,10 +33,15 @@ main {
     padding: .5rem;
 }
 
+section {
+    padding: 1rem;
+    max-width: 85%;
+    margin: auto;
+}
+
 .content {
     background-color: $lightbrown;
-    padding: 1rem;
-    max-width: 80%;
     margin: 1rem auto 1rem;
     border-radius: rem(20px);
+    padding: 1rem;
 }
