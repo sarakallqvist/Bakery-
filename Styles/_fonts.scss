@@ -1,19 +1,28 @@
 
 @import 'rem-converter';
 @import 'colors';
-@import url('https://fonts.googleapis.com/css2?family=Cormorant+Infant:wght@400;700&family=Sacramento&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Cormorant+Infant:wght@400;700&family=Raleway&family=Sacramento&display=swap');
 
 $sacramento: "Sacramento", cursive;
 $cormorant: "Cormorant Infant", serif;
+$raleway: "Raleway", sans-serif;
 
 h1, h2, h4 {
     font-family: $sacramento;
     font-weight: bold;
 }
 
+h3, h5, footer {
+    font-family: $cormorant;
+    font-weight: bold;
+    color: $darkbrown;
+}
+
 h5, p, .footer-label {
     color: $darkbrown;
 }
+
+// Header logo-specific
 
 h1 {
     font-size: rem(48px);
@@ -21,13 +30,12 @@ h1 {
     padding: 1%;
 }
 
-.logo-crown-header {
+.logo-crown {
     transform: rotate(30deg);
     padding: auto;
     margin-left: -2%;
     margin-top: 1%;
     }
-
 
 .logo-link {
     text-decoration: none;
@@ -42,16 +50,11 @@ h2 {
     font-size: rem(56px);
 }
 
-h3, h5, p, div {
-    font-family: $cormorant;
-    font-weight: bold;
-}
-
 h3, h4 {
     font-size: rem(36px);
 }
 
-nav li a, main, h5 {
+nav li a, h5 {
     color: $darkbrown;
     font-family: $cormorant;
     font-weight: bold;
@@ -63,5 +66,20 @@ nav li a {
 
     &:hover, &:focus {
         color: $mediumbrown;
+    }
+}
+
+.content > p {
+    font-family: $raleway;
+    line-height: 1.5rem;
+    font-weight: bold;
+}
+
+.content a {
+    text-decoration: underline $mediumbrown;
+    color: $darkbrown;
+
+    &:hover, &:focus {
+        text-decoration: underline $darkbrown;
     }
 }

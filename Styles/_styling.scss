@@ -30,4 +30,13 @@ body {
 
 main {
     flex: 1;
+    padding: .5rem;
+}
+
+.content {
+    background-color: $lightbrown;
+    padding: 1rem;
+    max-width: 80%;
+    margin: 1rem auto 1rem;
+    border-radius: rem(20px);
 }

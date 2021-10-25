@@ -4,3 +4,18 @@
 @import 'styling';
 @import 'header';
 @import 'footer';
+
+small {
+    font-size: rem(18px);
+    color: $mediumbrown;
+    font-family: $cormorant;
+    font-weight: bold;
+    line-height: 1.5rem;
+    margin-left: .1rem;
+}
+
+.content-divider {
+        border-top: dashed 2px $yellow;
+        max-width: 30%;
+        margin: 1rem 0rem 1rem 0rem;
+}

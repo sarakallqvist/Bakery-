@@ -17,6 +17,13 @@ header {
     justify-content: center;
 }
 
+.nav-ellipsis {
+    float: right;
+    padding-right: 3%;
+    
+    visibility: hidden;
+}
+
 nav ul {
     display: flex;
     justify-content: space-evenly;
