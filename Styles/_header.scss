@@ -12,16 +12,6 @@ header {
     padding-top: .5rem;
 }
 
-.logo-link {
-    text-decoration: none;
-    color: $darkbrown;
-    display: inline;
-
-     > .logo:hover, .logo:focus {
-        color: $mediumbrown;
-        }
-}
-
 .logo {
     display: flex;
     justify-content: center;

@@ -18,8 +18,10 @@ footer {
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
+    align-items: baseline;
     text-align: center;
-    max-width: 30%;
+    max-width: 25%;
+    flex-shrink: 0;
 
     :nth-child(even) {
         flex-basis: 40%;
@@ -29,20 +31,15 @@ footer {
 .locations {
     display: flex;
     flex-wrap: wrap;
-    justify-content: space-evenly;
-    flex-grow: 1;
 
     .location-address {
         display: flex;
-        flex-grow: 1;
         align-items: center;
+        flex-grow: 1;
 
         h5 {
             padding: 3%;
             text-align: center;
-        }
-
-        :nth-child(odd) {
             flex-basis: 30%;
         }
     }
@@ -50,8 +47,35 @@ footer {
 
 .brown-separator {
     border-right: dashed 2px $mediumbrown;
-    margin: .5rem;
 }
+
+.wrapper {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    margin: auto;
+}
+
+.footer-logo {
+    display: flex;
+}
+
+.mobile-socials {
+
+    a {
+    color: $darkbrown;
+    font-size: rem(20px);
+    }
+
+    a:hover, a:focus {
+        color: $mediumbrown;
+    }
+
+    visibility: hidden;
+}
+
+// Social footer at very bottom
 
 .socials {
     margin-top: 1%;
