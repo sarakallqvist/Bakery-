@@ -4,18 +4,27 @@
 @import 'styling';
 @import 'header';
 @import 'footer';
+@import url('https://kit.fontawesome.com/8f4cbc2809.js');
 
+.carousel {
+    padding-bottom: 2.5rem;
+}
+
+.carousel-control.left, .carousel-control.right {
+    background-image: none;
+    color: $mediumbrown;
+}
 
 .carousel-inner {
     border-radius: rem(20px);
 }
-
 .carousel-caption {
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: space-evenly;
-    padding-bottom: 10%;
+    padding-bottom: 5%;
+    text-shadow: 0 1px 2px rgba(0,0,0,.0);
 }
 
 .carousel-desc {
@@ -27,15 +36,16 @@
     > p {
         font-family: $cormorant;
         font-size: rem(26px);
+
     }
 }
 
 .carousel-button {    
     background-color: $mediumbrown-70;
-    padding: 1%;
+    padding: 2%;
     margin: 1%;
-    max-width: 20%;
-    border-radius: rem(20px);
+    max-width: max-content;
+    border-radius: rem(15px);
     border: 1px solid $yellow;
     text-decoration: none;
     align-self: center;
@@ -48,6 +58,7 @@
 
     &:hover, &:focus {
         background-color: $mediumbrown;
+        text-decoration: none;
     }
 }
 
