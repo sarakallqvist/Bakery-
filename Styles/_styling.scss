@@ -44,33 +44,45 @@ section {
 .hero {
     margin: auto;
     text-align: center;
-
-    .hero-img {
-        background-size: cover;
-        height: 430px;
-        width: 100%;
-        border-radius: rem(15px);
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
-        align-items: center;
-        }
 }
 
-.hero-desc-box {
+.hero-img {
+    background-size: cover;
+    height: 430px;
+    width: 100%;
+    border-radius: rem(15px);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    }
+
+.hero-box {
     background-color: $yellow-70;
     padding: 1%;
-    max-width: 45%;
+    width: 45%;
     border-radius: rem(20px);
-    
+    text-align: center;
+
     > p {
         font-family: $cormorant;
         font-size: rem(26px);
     }
 
-    &.subpage {
+    &.pill {
         border-radius: rem(30px);
         width: 50%;
+    }
+
+    &.label, &.label a {
+        font-family: $sacramento;
+        color: $darkbrown;
+        font-size: rem(48px);
+        text-decoration: none;
+
+        &:hover, &:focus {
+            background-color: $yellow;
+        }
     }
 }
 

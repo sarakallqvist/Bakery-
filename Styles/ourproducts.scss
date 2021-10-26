@@ -5,7 +5,67 @@
 @import 'header';
 @import 'footer';
 
+// Basic styles for the bakery section - including the sub-styles for cakes, pastries and breads - are here.
+
 .hero-img {
-    background-image: url(/Images/sidetable.jpg);
-    background-position: bottom;
+    
+    &.ourproducts {
+        background-image: url(/Images/sidetable.jpg);
+        background-position: bottom;
+    }
+
+    &.cakes {
+        background-image: url(/Images/carousels/rustic_cake.jpeg);
+        background-position: center;
+    }
+
+    &.pastries {
+        background-image: url(/Images/carousels/bakery_twists.jpg);
+        background-position: center;
+    }
+
+    &.breads {
+        background-image: url(/Images/carousels/rye.jpg);
+        background-position: center;
+    }
+
+// Cake products
+
+    &.espresso {
+        background-image: url(/Images/cakes/espresso_frost.jpeg);
+        background-position: center;
+    }
+
+    &.cherry {
+        background-image: url(/Images/cakes/cherry_cake.jpeg);
+        background-position: center;
+    }
+
+    &.blueberry {
+        background-image: url(/Images/cakes/blueberry.jpeg);
+        background-position: center;
+    }
+
+    &.strawberry {
+        background-image: url(/Images/cakes/strawberry_cheesecake.jpeg);
+        background-position: center;
+    }
+
+// Pastries
+
+// Breads
+}
+
+.product {
+    text-decoration: none;
+    font-size: rem(36px);
+    font-family: $cormorant;
+    font-weight: bold;
+    color: $darkbrown;
+    background-color: $lightbrown-70;
+    max-width: 30%;
+
+    &:hover, &:focus {
+        background-color: $lightbrown;
+    }
 }
