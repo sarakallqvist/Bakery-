@@ -1,16 +1,15 @@
 
 footer {
     color: $mediumbrown;
+    margin-top: auto;
 }
 
 .footer-container {
     display: flex;
     flex-direction: row;
-    
-    h4 {
-        width: 100%;
-        text-align: center;
-    }
+    justify-content: center;
+    flex-grow: 1;
+    width: 100%;
 }
 
 .hours {
@@ -23,7 +22,7 @@ footer {
     flex-shrink: 0;
 
     :nth-child(even) {
-        flex-basis: 30%;
+        flex-basis: 40%;
     }
 }
 
@@ -51,7 +50,6 @@ footer {
 
 .brown-separator {
     border-right: dashed 2px $mediumbrown;
-    padding-right: 3px;
 }
 
 .wrapper {
