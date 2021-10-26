@@ -40,6 +40,40 @@ section {
     margin: auto;
 }
 
+
+.hero {
+    margin: auto;
+    text-align: center;
+
+    .hero-img {
+        background-size: cover;
+        height: 430px;
+        width: 100%;
+        border-radius: rem(15px);
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        }
+}
+
+.hero-desc-box {
+    background-color: $yellow-70;
+    padding: 1%;
+    max-width: 45%;
+    border-radius: rem(20px);
+    
+    > p {
+        font-family: $cormorant;
+        font-size: rem(26px);
+    }
+
+    &.subpage {
+        border-radius: rem(30px);
+        width: 50%;
+    }
+}
+
 .content {
     background-color: $lightbrown;
     margin: 1rem auto 1rem;

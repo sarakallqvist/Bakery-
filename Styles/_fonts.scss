@@ -23,10 +23,20 @@ h2 {
 
 h3 {
     font-size: rem(52px);
+
+    &.bakery-header {
+        color: $yellow;
+        text-align: center;
+    }
 }
 
-nav li a, h5 {
+nav li, nav li a, h5 {
     font-size: rem(24px);
+
+    &.here {
+    color: $mediumbrown;
+    font-style: italic;
+    }
 }
 
 h2, h3 {
@@ -54,17 +64,12 @@ h4 {
     }
 }
 
-nav li a, h5, p {
+nav li, nav li a, h5, p {
     font-family: $cormorant;
     color: $darkbrown;
-
-    &.bakery-header {
-        color: $yellow;
-        text-align: center;
-    }
 }
 
-nav li a {
+nav li, nav li a {
     text-decoration: none;
 
     &:hover, &:focus {

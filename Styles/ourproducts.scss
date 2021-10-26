@@ -1,0 +1,11 @@
+@import 'rem-converter';
+@import 'colors';
+@import 'fonts';
+@import 'styling';
+@import 'header';
+@import 'footer';
+
+.hero-img {
+    background-image: url(/Images/sidetable.jpg);
+    background-position: bottom;
+}
