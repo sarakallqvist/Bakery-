@@ -10,7 +10,7 @@ $raleway: "Raleway", sans-serif;
 // See header/footer partials for icon styles
 
 * {
-    font-weight: bold;
+    font-weight: bold !important;
 }
 
 h1 {
@@ -52,6 +52,7 @@ h2, h3, .subpage {
 }
 
 h4 {
+    font-family: $cormorant;
     color: $darkbrown;
 
     &.content-article-label {
