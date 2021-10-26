@@ -5,8 +5,29 @@
 @import 'header';
 @import 'footer';
 
-.hero-img {
-        background-image: url(/Images/pastries/croissant_guys.jpeg);
+
+.carousel-inner {
+    border-radius: rem(20px);
+}
+
+.carousel-caption {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: space-evenly;
+    padding-bottom: 10%;
+}
+
+.carousel-desc {
+    background-color: $yellow-70;
+    padding: 1%;
+    border-radius: rem(20px);
+    text-align: center;
+
+    > p {
+        font-family: $cormorant;
+        font-size: rem(26px);
+    }
 }
 
 .carousel-button {    
@@ -17,6 +38,8 @@
     border-radius: rem(20px);
     border: 1px solid $yellow;
     text-decoration: none;
+    align-self: center;
+    flex-shrink: 0;
 
     h5 {
         color: $yellow;
