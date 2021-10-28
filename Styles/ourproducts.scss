@@ -66,6 +66,7 @@
     max-width: 30%;
 
     &:hover, &:focus {
+        @include transition-bg;
         background-color: $lightbrown;
     }
 }

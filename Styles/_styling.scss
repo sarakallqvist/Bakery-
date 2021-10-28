@@ -1,4 +1,4 @@
-
+@import 'transition-mixins';
 
 html {
     height: 100vh;
@@ -80,6 +80,7 @@ section {
         text-decoration: none;
 
         &:hover, &:focus {
+            @include transition-bg;
             background-color: $yellow;
         }
     }

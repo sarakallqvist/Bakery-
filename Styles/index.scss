@@ -57,6 +57,7 @@
     }
 
     &:hover, &:focus {
+        @include transition-bg;
         background-color: $mediumbrown;
         text-decoration: none;
     }
