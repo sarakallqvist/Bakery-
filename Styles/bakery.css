@@ -1,0 +1,527 @@
+@import url("https://fonts.googleapis.com/css2?family=Cormorant+Infant:wght@400;700&family=Raleway&family=Sacramento&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Cormorant+Infant:wght@400;700&family=Raleway&family=Sacramento&display=swap");
+* {
+  font-weight: bold;
+}
+
+h1 {
+  text-align: center;
+}
+
+h2 {
+  font-size: 3rem;
+}
+
+h3 {
+  font-size: 3.25rem;
+}
+
+nav li, nav li a, h5 {
+  font-size: 1.5rem;
+}
+nav li.here, nav li a.here, h5.here {
+  color: #947046;
+  font-style: italic;
+}
+
+h2, h3, .subpage {
+  font-family: "Sacramento", cursive;
+  color: #514538;
+}
+h2.content-header, h3.content-header, .subpage.content-header {
+  color: #F8F57E;
+  text-align: center;
+}
+h2.bakery-header, h3.bakery-header, .subpage.bakery-header {
+  color: #F8F57E;
+  text-align: center;
+  font-family: "Cormorant Infant", serif;
+  font-size: 2.625rem;
+}
+
+h4 {
+  color: #514538;
+}
+h4.content-article-label {
+  font-size: 1.75rem;
+}
+h4.footer-label {
+  font-family: "Sacramento", cursive;
+  font-size: 2.25rem;
+  width: 100%;
+  text-align: center;
+}
+
+nav li, nav li a, h5, p {
+  font-family: "Cormorant Infant", serif;
+  color: #514538;
+}
+nav li.bakery-content, nav li a.bakery-content, h5.bakery-content, p.bakery-content {
+  color: #C3A689;
+  font-size: 1.5rem;
+  text-align: center;
+  line-height: 2rem;
+}
+nav li.bakery-content a, nav li a.bakery-content a, h5.bakery-content a, p.bakery-content a {
+  color: #C3A689;
+}
+nav li.bakery-content a:hover, nav li.bakery-content a:focus, nav li a.bakery-content a:hover, nav li a.bakery-content a:focus, h5.bakery-content a:hover, h5.bakery-content a:focus, p.bakery-content a:hover, p.bakery-content a:focus {
+  -webkit-text-decoration: underline #947046;
+          text-decoration: underline #947046;
+}
+
+nav li, nav li a {
+  text-decoration: none;
+}
+nav li:hover, nav li:focus, nav li a:hover, nav li a:focus {
+  color: #947046;
+}
+
+.content > p {
+  font-family: "Raleway", sans-serif;
+  line-height: 1.5rem;
+}
+
+.content a {
+  -webkit-text-decoration: underline #947046;
+          text-decoration: underline #947046;
+  color: #514538;
+}
+.content a:hover, .content a:focus {
+  -webkit-text-decoration: underline #514538;
+          text-decoration: underline #514538;
+}
+
+html {
+  height: 100vh;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+body {
+  background-color: #514538;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  min-height: 100vh;
+}
+
+.doily {
+  width: 100%;
+  height: 1.75rem;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+.doily.top {
+  background: url("/Images/doily-top.png");
+}
+.doily.bottom {
+  background: url("/Images/doily-bottom.png");
+}
+
+main {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-flex: 1;
+      -ms-flex-positive: 1;
+          flex-grow: 1;
+  padding: 0.5rem;
+}
+
+section {
+  padding: 1rem;
+  width: 85%;
+  margin: auto;
+}
+
+.hero {
+  margin: auto;
+  text-align: center;
+}
+
+.hero-img {
+  background-size: cover;
+  height: 430px;
+  width: 100%;
+  border-radius: 0.9375rem;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.hero-box {
+  background-color: #F8F57EB3;
+  padding: 1%;
+  width: 45%;
+  border-radius: 1.25rem;
+  text-align: center;
+}
+.hero-box > p {
+  font-family: "Cormorant Infant", serif;
+  font-size: 1.625rem;
+}
+.hero-box.pill {
+  border-radius: 1.875rem;
+  width: 50%;
+}
+.hero-box.label, .hero-box.label a {
+  font-family: "Sacramento", cursive;
+  color: #514538;
+  font-size: 3rem;
+  text-decoration: none;
+}
+.hero-box.label:hover, .hero-box.label:focus, .hero-box.label a:hover, .hero-box.label a:focus {
+  background-color: #F8F57E;
+}
+
+.content {
+  background-color: #C3A689;
+  margin: 1rem auto 1rem;
+  border-radius: 1.25rem;
+  padding: 2rem;
+}
+
+* {
+  font-weight: bold;
+}
+
+h1 {
+  text-align: center;
+}
+
+h2 {
+  font-size: 3rem;
+}
+
+h3 {
+  font-size: 3.25rem;
+}
+
+nav li, nav li a, h5 {
+  font-size: 1.5rem;
+}
+nav li.here, nav li a.here, h5.here {
+  color: #947046;
+  font-style: italic;
+}
+
+h2, h3, .subpage {
+  font-family: "Sacramento", cursive;
+  color: #514538;
+}
+h2.content-header, h3.content-header, .subpage.content-header {
+  color: #F8F57E;
+  text-align: center;
+}
+h2.bakery-header, h3.bakery-header, .subpage.bakery-header {
+  color: #F8F57E;
+  text-align: center;
+  font-family: "Cormorant Infant", serif;
+  font-size: 2.625rem;
+}
+
+h4 {
+  color: #514538;
+}
+h4.content-article-label {
+  font-size: 1.75rem;
+}
+h4.footer-label {
+  font-family: "Sacramento", cursive;
+  font-size: 2.25rem;
+  width: 100%;
+  text-align: center;
+}
+
+nav li, nav li a, h5, p {
+  font-family: "Cormorant Infant", serif;
+  color: #514538;
+}
+nav li.bakery-content, nav li a.bakery-content, h5.bakery-content, p.bakery-content {
+  color: #C3A689;
+  font-size: 1.5rem;
+  text-align: center;
+  line-height: 2rem;
+}
+nav li.bakery-content a, nav li a.bakery-content a, h5.bakery-content a, p.bakery-content a {
+  color: #C3A689;
+}
+nav li.bakery-content a:hover, nav li.bakery-content a:focus, nav li a.bakery-content a:hover, nav li a.bakery-content a:focus, h5.bakery-content a:hover, h5.bakery-content a:focus, p.bakery-content a:hover, p.bakery-content a:focus {
+  -webkit-text-decoration: underline #947046;
+          text-decoration: underline #947046;
+}
+
+nav li, nav li a {
+  text-decoration: none;
+}
+nav li:hover, nav li:focus, nav li a:hover, nav li a:focus {
+  color: #947046;
+}
+
+.content > p {
+  font-family: "Raleway", sans-serif;
+  line-height: 1.5rem;
+}
+
+.content a {
+  -webkit-text-decoration: underline #947046;
+          text-decoration: underline #947046;
+  color: #514538;
+}
+.content a:hover, .content a:focus {
+  -webkit-text-decoration: underline #514538;
+          text-decoration: underline #514538;
+}
+
+header, footer {
+  background-color: #F8F57E;
+  width: 100%;
+  margin: auto;
+}
+
+header {
+  padding-top: 0.5rem;
+}
+
+.logo {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.nav-ellipsis {
+  float: right;
+  padding-right: 3%;
+  visibility: hidden;
+}
+
+nav ul {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+  padding-bottom: 0.5rem;
+}
+
+footer {
+  color: #947046;
+  margin-top: auto;
+}
+
+.footer-container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-flex: 1;
+      -ms-flex-positive: 1;
+          flex-grow: 1;
+  width: 100%;
+}
+
+.hours {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: baseline;
+      -ms-flex-align: baseline;
+          align-items: baseline;
+  text-align: center;
+  max-width: 25%;
+  -ms-flex-negative: 0;
+      flex-shrink: 0;
+}
+.hours :nth-child(even) {
+  -ms-flex-preferred-size: 40%;
+      flex-basis: 40%;
+}
+
+.locations {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+}
+.locations .location-address {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-flex: 1;
+      -ms-flex-positive: 1;
+          flex-grow: 1;
+}
+.locations .location-address h5 {
+  padding: 3%;
+  text-align: center;
+  -ms-flex-preferred-size: 30%;
+      flex-basis: 30%;
+}
+.locations .location-address p {
+  -webkit-box-flex: 1;
+      -ms-flex-positive: 1;
+          flex-grow: 1;
+}
+
+.brown-separator {
+  border-right: dashed 2px #947046;
+}
+
+.wrapper {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.footer-logo {
+  scale: calc(.75);
+}
+
+.mobile-socials {
+  visibility: hidden;
+}
+.mobile-socials a {
+  color: #514538;
+  font-size: 1.25rem;
+}
+.mobile-socials a:hover, .mobile-socials a:focus {
+  color: #947046;
+}
+
+.socials {
+  margin-top: 1%;
+  background-color: #947046;
+  height: -webkit-max-content;
+  height: -moz-max-content;
+  height: max-content;
+  padding: 1rem 0rem 1rem 0rem;
+  text-align: center;
+}
+.socials > i, .socials a {
+  color: #F8F57E;
+  font-size: 1.5rem;
+  letter-spacing: 0.375rem;
+}
+.socials a:hover, .socials a:focus {
+  color: #514538;
+}
+
+.dough-kneading {
+  margin: 1rem;
+  border-radius: 3rem;
+  width: 20rem;
+  height: 20rem;
+  float: right;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+
+.body-text {
+  margin-top: 2rem;
+}
+
+/* Styling of Navbar !!To Be updated*/
+.parent a {
+  margin: 1rem;
+  color: #514538;
+  text-decoration: none;
+  font-size: 1.75rem;
+}
+
+.parent:hover > ul {
+  display: block;
+  position: absolute;
+  background-color: #F8F57EB3;
+  color: #947046;
+  border-radius: 1rem;
+  margin: 0;
+  padding: 0;
+}
+
+.child {
+  display: none;
+  border-radius: 1rem;
+  background-color: #F8F57EB3;
+}
+
+.child li {
+  line-height: 3rem;
+  width: 100%;
+  border-radius: 1rem;
+}
+
+.child li a {
+  color: #514538;
+  font-size: 1.375rem;
+}
+
+ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  min-width: 20rem;
+}
+
+ul ul ul {
+  left: 100%;
+  top: 0;
+  margin-left: 0;
+}
+
+.parent li:hover {
+  background-color: #F8F57E;
+}
+
+.expand {
+  font-size: 2rem;
+  float: right;
+  margin-right: 1rem;
+}
