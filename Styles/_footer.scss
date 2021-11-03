@@ -66,15 +66,12 @@ footer {
 .mobile-socials {
     a {
         color: $darkbrown;
-        font-size: rem(20px);
-    }
+        font-size: rem(20px);}
 
     a:hover, a:focus {
         @include transition-color;
-        color: $mediumbrown;
-    }
-
-    visibility: hidden;
+        color: $mediumbrown;}
+    display: none;
 }
 
 // Desktop-size socials at very bottom
@@ -97,3 +94,15 @@ footer {
         color: $darkbrown;
     }
 }
+
+@media only screen and (max-width: 600px) {
+    .footer-container {
+        flex-direction: column;
+        &:last-child {
+        align-self: flex-start;
+        }
+    }
+    .mobile-socials {display: block;}
+    .socials {display: none;}
+    .brown-separator {border: none;}
+    .hours {max-width: 100%;}

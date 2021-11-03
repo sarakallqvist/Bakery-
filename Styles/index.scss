@@ -4,7 +4,6 @@
 @import 'styling';
 @import 'header';
 @import 'footer';
-@import url('https://kit.fontawesome.com/8f4cbc2809.js');
 
 .carousel {
     padding-bottom: 2.5rem;
@@ -62,6 +61,11 @@
         text-decoration: none;
     }
 }
+
+@media only screen and (max-width: 600px) {
+    .carousel-desc > p {
+        font-size: rem(20px);}
+    }
 
 small {
     font-size: rem(18px);

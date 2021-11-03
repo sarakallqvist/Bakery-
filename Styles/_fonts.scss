@@ -14,10 +14,6 @@ $raleway: "Raleway", sans-serif;
     font-weight: bold !important;
 }
 
-h1 {
-    text-align: center;
-  }
-
 h2 {
     font-size: rem(48px);
 }
@@ -25,6 +21,12 @@ h2 {
 h3 {
     font-size: rem(52px);
 }
+
+@media only screen and (max-width: 600px) {
+    h1 img {scale: calc(.85);}
+    h2 {font-size: rem(36px);}
+    h3 {font-size: rem(30px);}
+    }
 
 nav li, nav li a, h5 {
     font-size: rem(24px);
@@ -113,4 +115,3 @@ nav li, nav li a {
         text-decoration: underline $darkbrown;
     }
 }
-
