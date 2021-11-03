@@ -12,16 +12,15 @@ header {
     padding-top: .5rem;
 }
 
-.logo {
+.logo-link {
     display: flex;
     justify-content: center;
 }
 
-.nav-ellipsis {
+.nav-ellipsis i {
     float: right;
     padding-right: 3%;
-    
-    visibility: hidden;
+    display: none;
 }
 
 nav ul {

@@ -93,14 +93,15 @@ section {
     padding: 2rem;
 }
 
-.to-top, a {
+.to-top {
     font-family: $cormorant;
     color: $yellow;
     font-size: rem(24px);
     text-align: center;
     padding-bottom: 2%;
+    display: none;
 
-    a:hover, a:focus {
+    &:hover, &:focus {
         @include transition-color;
         text-decoration: none;
         color: $lightbrown;
