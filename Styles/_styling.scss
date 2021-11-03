@@ -88,7 +88,6 @@ section {
 
 .content {
     background-color: $lightbrown;
-    margin: 1rem auto 1rem;
     border-radius: rem(20px);
     padding: 2rem;
 }
@@ -106,4 +105,13 @@ section {
         text-decoration: none;
         color: $lightbrown;
     }
+}
+
+@media only screen and (max-width: 600px) {
+    main {padding: 0;}
+    section {width: 100%; padding: 0;}
+    .content {width: 100%;
+    padding: auto;
+    border-radius: 0;}
+    .to-top {display: block;}
 }

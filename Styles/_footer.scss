@@ -98,11 +98,12 @@ footer {
 @media only screen and (max-width: 600px) {
     .footer-container {
         flex-direction: column;
-        &:last-child {
-        align-self: flex-start;
+         >:last-of-type {
+            align-self: initial;
         }
     }
     .mobile-socials {display: block;}
     .socials {display: none;}
     .brown-separator {border: none;}
     .hours {max-width: 100%;}
+}
