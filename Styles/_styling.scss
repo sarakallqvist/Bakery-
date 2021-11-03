@@ -92,3 +92,17 @@ section {
     border-radius: rem(20px);
     padding: 2rem;
 }
+
+.to-top, a {
+    font-family: $cormorant;
+    color: $yellow;
+    font-size: rem(24px);
+    text-align: center;
+    padding-bottom: 2%;
+
+    a:hover, a:focus {
+        @include transition-color;
+        text-decoration: none;
+        color: $lightbrown;
+    }
+}
