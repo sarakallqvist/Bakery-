@@ -96,6 +96,7 @@ footer {
 }
 
 @media only screen and (max-width: 600px) {
+    footer {margin-top: 1rem;}
     .footer-container {
         flex-direction: column;
          >:last-of-type {

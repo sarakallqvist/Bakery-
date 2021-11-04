@@ -5,10 +5,6 @@
 @import 'header';
 @import 'footer';
 
-.carousel {
-    padding-bottom: 2.5rem;
-}
-
 .carousel-control.left, .carousel-control.right {
     background-image: none;
     color: $mediumbrown;
@@ -17,6 +13,7 @@
 .carousel-inner {
     border-radius: rem(20px);
 }
+
 .carousel-caption {
     display: flex;
     flex-direction: column;
@@ -62,12 +59,7 @@
     }
 }
 
-@media only screen and (max-width: 600px) {
-    .carousel-desc > p {
-        font-size: rem(20px);}
-    }
-
-small {
+.timestamp {
     font-size: rem(18px);
     color: $mediumbrown;
     font-family: $cormorant;
@@ -80,4 +72,29 @@ small {
         border-top: dashed 2px $yellow;
         max-width: 30%;
         margin: 1rem 0rem 1rem 0rem;
+}
+
+@media only screen and (max-width: 600px) {
+    .carousel-control.left, .carousel-control.right {display: none;}
+    .carousel-inner,
+    .carousel-caption,
+    .carousel-desc {
+        @include no-border;
+    }
+    section, .carousel {
+        padding-bottom: 5%;
+    }
+    .carousel-caption {
+        justify-content: flex-start;
+    }
+    .carousel-desc {
+        > p {
+        font-size: rem(20px);
+        }
+    }
+    
+    .content-article-label, .timestamp {
+        text-align: center;
+        margin: 0;
+    }
 }

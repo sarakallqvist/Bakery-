@@ -1,4 +1,12 @@
 @import 'transition-mixins';
+@import 'rem-converter';
+
+@mixin no-border {
+    border-radius: 0rem;
+    margin: 0rem; 
+    width: 100%;
+    flex-grow: 1;
+}
 
 html {
     height: 100vh;
@@ -46,9 +54,8 @@ section {
 }
 
 .hero-img {
-    background-size: cover;
-    height: 430px;
-    width: 100%;
+    max-height: 430px;
+    object-fit: cover;
     border-radius: rem(15px);
     display: flex;
     flex-direction: column;
@@ -108,10 +115,13 @@ section {
 }
 
 @media only screen and (max-width: 600px) {
-    main {padding: 0;}
-    section {width: 100%; padding: 0;}
-    .content {width: 100%;
-    padding: auto;
-    border-radius: 0;}
+    main, 
+    section, 
+    .hero-box, 
+    .hero-img, 
+    .content {@include no-border;}
+    main, 
+    section {padding: 0;}
+    .content {padding: .5rem;} 
     .to-top {display: block;}
 }
