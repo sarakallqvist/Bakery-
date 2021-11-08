@@ -8,6 +8,7 @@ footer {
 .mobile-flip {
     display: flex;
     flex-direction: row;
+    padding-bottom: 3%;
 }
 
 .footer-container {
@@ -117,7 +118,9 @@ footer {
         padding-top: 1rem;
         padding-bottom: .5rem;
     }
-    .hours {max-width: 100%;}
+    .hours {
+        max-width: 95%;
+        justify-content: space-around;}
     .socials {display: none;}
     .locations { 
         flex-basis: 100%;}
