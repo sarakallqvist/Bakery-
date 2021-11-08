@@ -465,12 +465,29 @@ footer {
 }
 
 .body-text {
-  margin-top: 2rem;
+  margin-top: 1rem;
 }
 
+@media screen and (max-width: 992px) {
+  .dough-kneading {
+    margin: 0.5rem;
+    width: 18rem;
+    height: 18rem;
+    position: relative;
+  }
+}
+@media screen and (max-width: 600px) {
+  .dough-kneading {
+    margin: 0.5rem;
+    border-radius: 3rem;
+    width: 16rem;
+    height: 16rem;
+    position: relative;
+  }
+}
 /* Styling of Navbar !!To Be updated*/
 .parent a {
-  margin: 1rem;
+  margin: rem;
   color: #514538;
   text-decoration: none;
   font-size: 1.75rem;
