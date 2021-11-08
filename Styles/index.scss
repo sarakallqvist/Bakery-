@@ -57,6 +57,33 @@
     }
 }
 
+@media only screen and (max-width: 600px) {
+    .carousel,
+    .carousel-caption,
+    .carousel-inner,
+    .carousel-desc {
+        @include no-border;
+    }
+    .carousel {
+        padding-bottom: 5%;
+    }
+    .carousel-control.left, .carousel-control.right {
+        display: none;
+    }
+
+    .carousel-desc {
+        > p {
+            font-size: 1rem;
+        }
+    }
+
+    .item img {
+        min-height: rem(300px);
+        object-fit: cover;
+    }
+}
+
+
 .timestamp {
     font-size: rem(18px);
     color: $mediumbrown;
@@ -73,30 +100,6 @@
 }
 
 @media only screen and (max-width: 600px) {
-    .carousel-inner,
-    .carousel-caption,
-    .carousel-desc {
-        @include no-border;
-    }
-    .carousel {
-        padding-bottom: 5%;
-    }
-    
-    .carousel-control.left, .carousel-control.right {
-        display: none;
-    }
-
-    .item, .carousel-caption {
-        width: 100%;
-        justify-content: flex-start;
-    }
-
-    .carousel-desc {
-        > p {
-        font-size: rem(20px);
-        }
-    }
-    
     .content-divider {
         margin-left: 25%;
         max-width: 50%;
