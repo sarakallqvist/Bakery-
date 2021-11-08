@@ -96,6 +96,8 @@ footer {
     }
 }
 
+//Media Queries
+
 @media only screen and (max-width: 600px) {
     footer {margin-top: 1rem;}
     .footer-container {
@@ -104,9 +106,26 @@ footer {
             align-self: initial;
         }
     }
-    .mobile-socials {display: block;}
-    .socials {display: none;}
-    .location-address {flex-wrap: row;}
-    .brown-separator {border: none;}
+    .footer-label {
+        padding-top: 1rem;
+        padding-bottom: .5rem;
+    }
     .hours {max-width: 100%;}
+    .socials {display: none;}
+    .locations { 
+        flex-basis: 100%;}
+    .location-address {
+        justify-content: center;
+        margin: auto;
+        text-align: center;
+        flex-wrap: wrap;}
+
+    .brown-separator {
+        border-bottom: dashed 2px $mediumbrown;
+        margin-left: 25%;
+        max-width: 50%;
+        padding-bottom: 1rem;
+        border-right: none;}
+        
+    .mobile-socials {display: block;}
 }
