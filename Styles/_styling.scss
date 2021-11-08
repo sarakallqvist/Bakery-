@@ -54,7 +54,7 @@ section {
 }
 
 .hero-img {
-    max-height: 430px;
+    max-height: rem(430px);
     object-fit: cover;
     border-radius: rem(15px);
     display: flex;
@@ -121,7 +121,6 @@ section {
     .hero-img, 
     .content {@include no-border;}
     main, 
-    section {padding: 0;}
-    .content {padding: .5rem;} 
+    section, .content {padding: .5rem;} 
     .to-top {display: block;}
 }
