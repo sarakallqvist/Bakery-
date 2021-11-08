@@ -5,6 +5,11 @@ footer {
     margin-top: auto;
 }
 
+.mobile-flip {
+    display: flex;
+    flex-direction: row;
+}
+
 .footer-container {
     display: flex;
     flex-direction: row;
@@ -65,6 +70,8 @@ footer {
 }
 
 .mobile-socials {
+        padding-bottom: 3%;
+        margin-top: rem(-20px);
     a {
         color: $darkbrown;
         font-size: rem(20px);}
@@ -99,12 +106,12 @@ footer {
 //Media Queries
 
 @media only screen and (max-width: 600px) {
-    footer {margin-top: 1rem;}
+    footer {margin-top: 1rem; }
+    .mobile-flip {
+        flex-direction: column-reverse;
+    }
     .footer-container {
         flex-direction: column;
-         >:last-of-type {
-            align-self: initial;
-        }
     }
     .footer-label {
         padding-top: 1rem;
@@ -118,7 +125,8 @@ footer {
         justify-content: center;
         margin: auto;
         text-align: center;
-        flex-wrap: wrap;}
+        flex-wrap: wrap;
+        padding-top: 1%;}
 
     .brown-separator {
         border-bottom: dashed 2px $mediumbrown;
@@ -126,6 +134,8 @@ footer {
         max-width: 50%;
         padding-bottom: 1rem;
         border-right: none;}
-        
+    
+    .wrapper {flex-direction: column;
+    align-self: flex-start;}
     .mobile-socials {display: block;}
 }
