@@ -26,6 +26,8 @@ h3 {
     h1 img {scale: calc(.85);}
     h2 {font-size: rem(36px);}
     h3 {font-size: rem(30px);}
+    .content > p {text-align: justify;
+        padding: 0rem .5rem 0rem .5rem;}
     }
 
 nav li, nav li a, h5 {
