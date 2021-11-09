@@ -11,17 +11,47 @@
 </head>
 <body>
     <header>
-        <a href="/index.html" class="logo-link">
+        <a href="../index.html" class="logo-link">
         <h1 id="top"><img src="/Images/logo.svg" alt="Regina Bakery">
         </h1>
         </a>
         <div>
             <div class="nav-ellipsis"><i class="fas fa-ellipsis-v"></i></div>
             <nav>
-                <ul>
-                    <li><a href="ourstory.html">Our Story</a></li>
-                    <li><a href="/Bakery-Pages/ourproducts.html">Our Products</a></li>
-                    <li><a href="contact.html">Contact Us</a></li>
+                <ul id="menu">
+                    <li class="parent"><a href="ourstory.html">Our Story</a> </li>
+                    <li class="parent"><a href="ourproducts.html">Our Products</a>
+                        <ul class="child">
+                            <li class="parent"><a href="cakes.html">Cakes<span class="expand">»</span></a>
+                                <ul class="child">
+                                    <li><a href="#" nowrap>Espresso Chocolate Knock-Out</a></li>
+                                    <li><a href="#" nowrap>Cherry Dream Sponge</a></li>
+                                    <li><a href="#" nowrap>Burnt Sugar Blueberry</a></li>
+                                    <li><a href="#" nowrap>Strawberry "Choose"-Cake</a></li>
+                                </ul>
+                            </li>
+
+                            <li class="parent"><a href="#">Pastries<span class="expand">»</span></a>
+                                <ul class="child">
+                                <li><a href="#" nowrap>Blueberry Lemon Tartlets</a></li>
+                                <li><a href="#" nowrap>Regina´s Sticky Buns</a></li>
+                                <li><a href="#" nowrap>Classic Croissants</a></li>
+                                <li><a href="#" nowrap>Cozy Fika Deal</a></li>
+                                </ul>
+                            </li>
+
+
+                            <li class="parent"><a href="#">Breads<span class="expand">»</span></a>
+                                <ul class="child">
+                                <li><a href="#" nowrap>Brioche</a></li>
+                                <li><a href="#" nowrap>Challah</a></li>
+                                <li><a href="#" nowrap>New York-style Bagels</a></li>
+                                <li><a href="#" nowrap>Baguettes</a></li>
+                                </ul>
+                            </li>
+                        </ul>
+                    </li>
+                    <li class="parent"><a href="contact.html">Contact Us</a> </li>
                 </ul>
             </nav>
         </div>
@@ -52,7 +82,7 @@
                 <a class="hero-box product" href="espresso.html">Cherry Dream Sponge</a>
                 </div>
 
-            
+
                 <div class="hero-img blueberry">
                     <a class="hero-box product" href="espresso.html">Burnt Sugar Blueberry</a>
                     </div>
@@ -66,7 +96,7 @@
 
     <footer>
         <div class="doily bottom"></div>
-        
+
 <!-- Main footer content starts -->
     <div class="footer-container">
         <div class="hours">
@@ -105,8 +135,8 @@
                         <a href="#"><i class="fab fa-facebook"></i></a>
                         <a href="#"><i class="fab fa-twitter-square" ></i></a>
                     </div>
-                    
-            
+
+
             </div>
         </div>
 

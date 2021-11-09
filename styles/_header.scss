@@ -20,7 +20,6 @@ header {
 .nav-ellipsis {
     float: right;
     padding-right: 3%;
-    
     visibility: hidden;
 }
 
@@ -28,4 +27,54 @@ nav ul {
     display: flex;
     justify-content: space-evenly;
     padding-bottom: .5rem;
+}
+
+.parent a{
+    margin: rem;
+    color: $darkbrown;
+    text-decoration: none;
+    font-size: rem(28px);
+}
+.parent:hover > ul {
+    display: block;
+    position: absolute;
+    background-color: $yellow-70;
+    color: $mediumbrown;
+    border-radius: 1rem;
+    margin: 0;
+    padding: 0;
+}
+.child {
+    display: none;
+    border-radius: 1rem;
+    background-color: $yellow-70;
+    }
+.child li {
+    line-height: 3rem;
+    width:100%;
+    border-radius: 1rem;
+}
+.child li a{
+    color: $darkbrown;
+    font-size: rem(22px);
+}
+ul{
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    min-width:20rem;
+}
+ul ul ul{
+    left: 100%;
+    top: 0;
+    margin-left:0;
+}
+
+.parent li:hover {
+    background-color: $yellow;
+}
+.expand{
+    font-size: 2rem;
+    float:right;
+    margin-right:1rem;
 }

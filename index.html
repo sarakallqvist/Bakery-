@@ -8,26 +8,57 @@
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
     <script src="https://kit.fontawesome.com/8f4cbc2809.js" crossorigin="anonymous"></script>
-    <link rel="stylesheet" href="./Styles/reset.css">   
-    <link rel="stylesheet" href="./Styles/index.css">
+    <link rel="stylesheet" href="Styles/reset.css">
+    <link rel="stylesheet" href="Styles/index.css">
     <title>Regina Bakery - Home</title>
     <link rel="icon" type="image/x-icon" href="/Images/regina_bakery.ico">
 </head>
 <body>
     <header>
-        <div class="nav-ellipsis"><i class="fas fa-ellipsis-v"></i></div>
         <a href="index.html" class="logo-link">
         <h1 id="top"><img src="/Images/logo.svg" alt="Regina Bakery">
         </h1>
         </a>
+        <div>
+            <div class="nav-ellipsis"><i class="fas fa-ellipsis-v"></i></div>
             <nav>
-                <ul>
-                    <li><a href="/Bakery-Pages/ourstory.html">Our Story</a></li>
-                    <li><a href="/Bakery-Pages/ourproducts.html">Our Products</a></li>
-                    <li><a href="/Bakery-Pages/contact.html">Contact Us</a></li>
+                <ul id="menu">
+                    <li class="parent"><a href="Bakery-Pages/ourstory.html">Our Story</a> </li>
+                    <li class="parent"><a href="Bakery-Pages/ourproducts.html">Our Products</a>
+                        <ul class="child">
+                            <li class="parent"><a href="Bakery-Pages/cakes.html">Cakes<span class="expand">»</span></a>
+                                <ul class="child">
+                                    <li><a href="#" nowrap>Espresso Chocolate Knock-Out</a></li>
+                                    <li><a href="#" nowrap>Cherry Dream Sponge</a></li>
+                                    <li><a href="#" nowrap>Burnt Sugar Blueberry</a></li>
+                                    <li><a href="#" nowrap>Strawberry "Choose"-Cake</a></li>
+                                </ul>
+                            </li>
+
+                            <li class="parent"><a href="#">Pastries<span class="expand">»</span></a>
+                                <ul class="child">
+                                <li><a href="#" nowrap>Blueberry Lemon Tartlets</a></li>
+                                <li><a href="#" nowrap>Regina´s Sticky Buns</a></li>
+                                <li><a href="#" nowrap>Classic Croissants</a></li>
+                                <li><a href="#" nowrap>Cozy Fika Deal</a></li>
+                                </ul>
+                            </li>
+
+
+                            <li class="parent"><a href="#">Breads<span class="expand">»</span></a>
+                                <ul class="child">
+                                <li><a href="#" nowrap>Brioche</a></li>
+                                <li><a href="#" nowrap>Challah</a></li>
+                                <li><a href="#" nowrap>New York-style Bagels</a></li>
+                                <li><a href="#" nowrap>Baguettes</a></li>
+                                </ul>
+                            </li>
+                        </ul>
+                    </li>
+                    <li class="parent"><a href="Bakery-Pages/contact.html">Contact Us</a> </li>
                 </ul>
             </nav>
-        
+        </div>
         <div class="doily top">
         </div>
     </header>
@@ -41,7 +72,7 @@
               <li data-target="#myCarousel" data-slide-to="2"></li>
               <li data-target="#myCarousel" data-slide-to="3"></li>
             </ol> -->
-          
+
             <!-- Wrapper for slides -->
             <div class="carousel-inner">
               <div class="item active">
@@ -92,7 +123,7 @@
               </div>
               </div>
             </div>
-          
+
             <!-- Left and right controls -->
             <a class="left carousel-control" href="#myCarousel" data-slide="prev">
               <span class="glyphicon glyphicon-chevron-left"></span>
@@ -122,7 +153,7 @@
 
     <footer>
         <div class="doily bottom"></div>
-        
+
 <!-- Main footer content starts -->
     <div class="mobile-flip">
         <div class="footer-container">

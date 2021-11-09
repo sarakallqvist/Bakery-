@@ -5,23 +5,53 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <script src="https://kit.fontawesome.com/8f4cbc2809.js" crossorigin="anonymous"></script>
-    <link rel="stylesheet" href="/Styles/reset.css">
-    <link rel="stylesheet" href="/Styles/ourproducts.css">
+    <link rel="stylesheet" href="../Styles/reset.css">
+    <link rel="stylesheet" href="../Styles/ourproducts.css">
     <title>Regina Bakery - Our Products</title>
 </head>
 <body>
     <header>
-        <a href="/index.html" class="logo-link">
+        <a href="../index.html" class="logo-link">
         <h1 id="top"><img src="/Images/logo.svg" alt="Regina Bakery">
         </h1>
         </a>
         <div>
             <div class="nav-ellipsis"><i class="fas fa-ellipsis-v"></i></div>
             <nav>
-                <ul>
-                    <li><a href="ourstory.html">Our Story</a></li>
-                    <li class="here">Our Products</li>
-                    <li><a href="contact.html">Contact Us</a></li>
+                <ul id="menu">
+                    <li class="parent"><a href="ourstory.html">Our Story</a> </li>
+                    <li class="parent"><a href="ourproducts.html">Our Products</a>
+                        <ul class="child">
+                            <li class="parent"><a href="cakes.html">Cakes<span class="expand">»</span></a>
+                                <ul class="child">
+                                    <li><a href="#" nowrap>Espresso Chocolate Knock-Out</a></li>
+                                    <li><a href="#" nowrap>Cherry Dream Sponge</a></li>
+                                    <li><a href="#" nowrap>Burnt Sugar Blueberry</a></li>
+                                    <li><a href="#" nowrap>Strawberry "Choose"-Cake</a></li>
+                                </ul>
+                            </li>
+
+                            <li class="parent"><a href="#">Pastries<span class="expand">»</span></a>
+                                <ul class="child">
+                                <li><a href="#" nowrap>Blueberry Lemon Tartlets</a></li>
+                                <li><a href="#" nowrap>Regina´s Sticky Buns</a></li>
+                                <li><a href="#" nowrap>Classic Croissants</a></li>
+                                <li><a href="#" nowrap>Cozy Fika Deal</a></li>
+                                </ul>
+                            </li>
+
+
+                            <li class="parent"><a href="#">Breads<span class="expand">»</span></a>
+                                <ul class="child">
+                                <li><a href="#" nowrap>Brioche</a></li>
+                                <li><a href="#" nowrap>Challah</a></li>
+                                <li><a href="#" nowrap>New York-style Bagels</a></li>
+                                <li><a href="#" nowrap>Baguettes</a></li>
+                                </ul>
+                            </li>
+                        </ul>
+                    </li>
+                    <li class="parent"><a href="contact.html">Contact Us</a> </li>
                 </ul>
             </nav>
         </div>
@@ -50,7 +80,7 @@
             </div>
 
             <div class="hero-img breads">
-                <a class="hero-box pill label" href="cakes.html">Breads</a> 
+                <a class="hero-box pill label" href="cakes.html">Breads</a>
             </div>
 
         <!-- Pastries and Breads here -->
@@ -59,7 +89,7 @@
     </main>
     <footer>
         <div class="doily bottom"></div>
-        
+
 <!-- Main footer content starts -->
     <div class="footer-container">
         <div class="hours">

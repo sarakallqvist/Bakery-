@@ -6,7 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <script src="https://kit.fontawesome.com/836579cd88.js" crossorigin="anonymous"></script>
     <script defer src="Javascript/form.js"></script>
-    
+
     <link rel="stylesheet" href="/Styles/reset.css">
     <link rel="stylesheet" href="/Styles/index.css">
     <link rel="stylesheet" href="/Styles/contact.css">
@@ -16,19 +16,50 @@
 </head>
 <body>
     <header>
-        <div class="nav-ellipsis"><i class="fas fa-ellipsis-v"></i></div>
-        <a href="/./index.html" class="logo-link">
+        <a href="../index.html" class="logo-link">
         <h1 id="top"><img src="/Images/logo.svg" alt="Regina Bakery">
         </h1>
         </a>
+        <div>
+            <div class="nav-ellipsis"><i class="fas fa-ellipsis-v"></i></div>
             <nav>
-                <ul>
-                    <li><a href="/Bakery-Pages/ourstory.html">Our Story</a></li>
-                    <li><a href="/Bakery-Pages/ourproducts.html">Our Products</a></li>
-                    <li class="here">Contact Us</li>
+                <ul id="menu">
+                    <li class="parent"><a href="ourstory.html">Our Story</a> </li>
+                    <li class="parent"><a href="ourproducts.html">Our Products</a>
+                        <ul class="child">
+                            <li class="parent"><a href="cakes.html">Cakes<span class="expand">»</span></a>
+                                <ul class="child">
+                                    <li><a href="#" nowrap>Espresso Chocolate Knock-Out</a></li>
+                                    <li><a href="#" nowrap>Cherry Dream Sponge</a></li>
+                                    <li><a href="#" nowrap>Burnt Sugar Blueberry</a></li>
+                                    <li><a href="#" nowrap>Strawberry "Choose"-Cake</a></li>
+                                </ul>
+                            </li>
+
+                            <li class="parent"><a href="#">Pastries<span class="expand">»</span></a>
+                                <ul class="child">
+                                <li><a href="#" nowrap>Blueberry Lemon Tartlets</a></li>
+                                <li><a href="#" nowrap>Regina´s Sticky Buns</a></li>
+                                <li><a href="#" nowrap>Classic Croissants</a></li>
+                                <li><a href="#" nowrap>Cozy Fika Deal</a></li>
+                                </ul>
+                            </li>
+
+
+                            <li class="parent"><a href="#">Breads<span class="expand">»</span></a>
+                                <ul class="child">
+                                <li><a href="#" nowrap>Brioche</a></li>
+                                <li><a href="#" nowrap>Challah</a></li>
+                                <li><a href="#" nowrap>New York-style Bagels</a></li>
+                                <li><a href="#" nowrap>Baguettes</a></li>
+                                </ul>
+                            </li>
+                        </ul>
+                    </li>
+                    <li class="parent"><a href="contact.html">Contact Us</a> </li>
                 </ul>
             </nav>
-        
+        </div>
         <div class="doily top">
         </div>
     </header>
@@ -37,27 +68,27 @@
 
     <div class="contact_Us_Container">
         <p class="contact_Us_Text contact_Us_Container_Text01">Send us a message</p>
- 
+
              <form class="contact_Us_Form_Container" id="form" action="#" method="GET" >
- 
+
                  <div class="contact_Us_Form_Container_Name form_Error" id="personName">
                      <label for="name"></label>
                      <input  type="text" name="name" id="name" placeholder="Your Name" >
-                 </div> 
- 
+                 </div>
+
                  <div class="contact_Us_Form_Container_Email form_Error" id="personEmail" >
                      <label for="email"></label>
                      <input type="text" name="email" id="email" placeholder="Your Email" novalidate>
                  </div>
- 
+
                  <div class="contact_Us_Form_Container_Phone form_Error" id="personPhone">
                      <label for="phone"></label>
                      <input type="tel" name="phone" id="phone" placeholder="Your Number" min="0" max="9">
-                 </div> 
- 
+                 </div>
+
                  <div class="contact_Us_Form_Container_Category form_Error">
                      <label for="category"></label>
-                     <select name="category" id="category" > 
+                     <select name="category" id="category" >
                          <option value="" disabled selected>What is your message regarding?.</option>
                          <option value="#">Food we sell</option>
                          <option value="">About us</option>
@@ -66,21 +97,21 @@
                          <option value="">Website error</option>
                      </select>
                  </div>
- 
+
                  <div class="contact_Us_Form_Container_Message form_Error">
                      <label for="message"></label>
                      <textarea type="text" name="message" id="message" placeholder ="Your Message" ></textarea>
-                 </div> 
- 
+                 </div>
+
                  <div class="contact_Us_Form_Container_Btn">
                      <input type="submit" name="" value="Submit">
-                 </div>              
+                 </div>
              </form>
- 
-        <p class="contact_Us_Text contact_Us_Container_Text02">We love to hear from you!</p> 
+
+        <p class="contact_Us_Text contact_Us_Container_Text02">We love to hear from you!</p>
         <p class="contact_Us_Text contact_Us_Container_Text03">We try to answer all inquiries within 24 hours. Thanks in<br>
          advance for contacting us - we value your comments and <br> suggestions <br><br> Do you need to place a large order, or arrange an event <br>
-         please feel free to call us directly, or drop in at either of our <br> locations. <br><br> Please note any allergyn information is posted on our <br> 
+         please feel free to call us directly, or drop in at either of our <br> locations. <br><br> Please note any allergyn information is posted on our <br>
          ingredient listing with each product </p>
         <p class="contact_Us_Text contact_Us_Container_Text04">
             We try to answer all inquiries within 24 hours. <br>
