@@ -10,26 +10,53 @@
     <script src="https://kit.fontawesome.com/8f4cbc2809.js" crossorigin="anonymous"></script>
     <link rel="stylesheet" href="./Styles/reset.css">   
     <link rel="stylesheet" href="./Styles/index.css">
+    <link rel="stylesheet" href="./Styles/navbar.css">
     <title>Regina Bakery - Home</title>
     <link rel="icon" type="image/x-icon" href="/Images/regina_bakery.ico">
 </head>
 <body>
     <header>
-        <div class="nav-ellipsis"><i class="fas fa-ellipsis-v"></i></div>
-        <a href="index.html" class="logo-link">
-        <h1 id="top"><img src="/Images/logo.svg" alt="Regina Bakery">
-        </h1>
-        </a>
-            <nav>
-                <ul>
-                    <li><a href="ourstory.html">Our Story</a></li>
-                    <li><a href="/Bakery-Pages/ourproducts.html">Our Products</a></li>
-                    <li><a href="contact.html">Contact Us</a></li>
+        <a href="../index.html" class="logo-link">
+            <h1 id="top"><img src="../images/logo.svg" alt="Regina Bakery">
+            </h1>
+            </a>
+        <nav class="navbar">
+        <label for="input-hamburger" class="hamburger "></label>
+        <input type="checkbox" id="input-hamburger" hidden>
+        <ul class="menu">
+            <li><a href="#" class="menu-link">Our Story</a></li>
+            <li class="has-dropdown"><a href="#" class="menu-link">Our Products <span class="expand">»</span> </a>
+                <ul class="submenu">
+                    <li class="has-dropdown"> <a href="#" class="menu-link">Cakes <span class="expand">»</span> </a>
+                        <ul class="submenu">
+                            <li><a href="#" class="menu-link">Espresso Chocolate Knock-Out</a></li>
+                            <li><a href="#" class="menu-link">Cherry Dream Sponge</a></li>
+                            <li><a href="#" class="menu-link">Burnt Sugar Blueberry</a></li>
+                            <li><a href="#" class="menu-link">Strawberry "Choose"-Cake</a></li>
+                        </ul>
+                    </li>
+                    <li class="has-dropdown"> <a href="#" class="menu-link">Pastries <span class="expand">»</span> </a>
+                        <ul class="submenu">
+                            <li><a href="#" class="menu-link">Blueberry Lemon Tartlets</a></li>
+                            <li><a href="#" class="menu-link">Regina´s Sticky Buns</a></li>
+                            <li><a href="#" class="menu-link">Classic Croissants</a></li>
+                            <li><a href="#" class="menu-link">Cozy Fika Deal</a></li>
+                        </ul>
+                    </li>
+                    <li class="has-dropdown"> <a href="#" class="menu-link">Breads <span class="expand">»</span> </a>
+                        <ul class="submenu">
+                            <li><a href="#" class="menu-link">Brioche</a></li>
+                            <li><a href="#" class="menu-link">Challah</a></li>
+                            <li><a href="#" class="menu-link">New York-style Bagels</a></li>
+                            <li><a href="#" class="menu-link">Baguettes</a></li>
+                        </ul>
+                    </li>
                 </ul>
-            </nav>
-        
-        <div class="doily top">
-        </div>
+            </li>
+            <li><a href="#" class="menu-link">Contact</a></li>
+        </ul>
+        </nav>
+        <div class="doily top"> </div>
     </header>
     <main>
 
