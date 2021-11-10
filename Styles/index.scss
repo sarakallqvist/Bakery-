@@ -17,7 +17,6 @@
 .carousel-caption {
     display: flex;
     flex-direction: column;
-    justify-content: center;
     text-shadow: 0 1px 2px rgba(0,0,0,.0);
 }
 
@@ -30,7 +29,6 @@
     > p {
         font-family: $cormorant;
         font-size: rem(26px);
-
     }
 }
 
@@ -69,6 +67,12 @@
     }
     .carousel-control.left, .carousel-control.right {
         display: none;
+    }
+
+    .carousel-caption {
+        height: 70%;
+        margin-left: -3rem;
+        width: 100%;
     }
 
     .carousel-desc {
