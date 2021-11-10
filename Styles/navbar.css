@@ -19,7 +19,6 @@ h3 {
 nav li, nav li a, h5 {
   font-size: 1.5rem;
 }
-
 nav li.here, nav li a.here, h5.here {
   color: #947046;
   font-style: italic;
@@ -29,12 +28,10 @@ h2, h3, .subpage {
   font-family: "Sacramento", cursive;
   color: #514538;
 }
-
 h2.content-header, h3.content-header, .subpage.content-header {
   color: #F8F57E;
   text-align: center;
 }
-
 h2.bakery-header, h3.bakery-header, .subpage.bakery-header {
   color: #F8F57E;
   text-align: center;
@@ -46,11 +43,9 @@ h4 {
   font-family: "Cormorant Infant", serif;
   color: #514538;
 }
-
 h4.content-article-label {
   font-size: 1.75rem;
 }
-
 h4.footer-label {
   font-family: "Sacramento", cursive;
   font-size: 2.25rem;
@@ -62,18 +57,15 @@ nav li, nav li a, h5, p {
   font-family: "Cormorant Infant", serif;
   color: #514538;
 }
-
 nav li.bakery-content, nav li a.bakery-content, h5.bakery-content, p.bakery-content {
   color: #C3A689;
   font-size: 1.5rem;
   text-align: center;
   line-height: 2rem;
 }
-
 nav li.bakery-content a, nav li a.bakery-content a, h5.bakery-content a, p.bakery-content a {
   color: #C3A689;
 }
-
 nav li.bakery-content a:hover, nav li.bakery-content a:focus, nav li a.bakery-content a:hover, nav li a.bakery-content a:focus, h5.bakery-content a:hover, h5.bakery-content a:focus, p.bakery-content a:hover, p.bakery-content a:focus {
   -webkit-text-decoration: underline #947046;
           text-decoration: underline #947046;
@@ -82,7 +74,6 @@ nav li.bakery-content a:hover, nav li.bakery-content a:focus, nav li a.bakery-co
 nav li, nav li a {
   text-decoration: none;
 }
-
 nav li:hover, nav li:focus, nav li a:hover, nav li a:focus {
   color: #947046;
 }
@@ -97,7 +88,6 @@ nav li:hover, nav li:focus, nav li a:hover, nav li a:focus {
           text-decoration: underline #947046;
   color: #514538;
 }
-
 .content a:hover, .content a:focus {
   -webkit-text-decoration: underline #514538;
           text-decoration: underline #514538;
@@ -129,11 +119,9 @@ body {
   -o-object-fit: cover;
      object-fit: cover;
 }
-
 .doily.top {
   background: url("../images/doily-top.png");
 }
-
 .doily.bottom {
   background: url("../images/doily-bottom.png");
 }
@@ -149,7 +137,7 @@ main {
   -webkit-box-flex: 1;
       -ms-flex-positive: 1;
           flex-grow: 1;
-  padding: .5rem;
+  padding: 0.5rem;
 }
 
 section {
@@ -190,24 +178,20 @@ section {
   border-radius: 1.25rem;
   text-align: center;
 }
-
 .hero-box > p {
   font-family: "Cormorant Infant", serif;
   font-size: 1.625rem;
 }
-
 .hero-box.pill {
   border-radius: 1.875rem;
   width: 50%;
 }
-
 .hero-box.label, .hero-box.label a {
   font-family: "Sacramento", cursive;
   color: #514538;
   font-size: 3rem;
   text-decoration: none;
 }
-
 .hero-box.label:hover, .hero-box.label:focus, .hero-box.label a:hover, .hero-box.label a:focus {
   background-color: #F8F57E;
 }
@@ -238,7 +222,6 @@ h3 {
 nav li, nav li a, h5 {
   font-size: 1.5rem;
 }
-
 nav li.here, nav li a.here, h5.here {
   color: #947046;
   font-style: italic;
@@ -248,12 +231,10 @@ h2, h3, .subpage {
   font-family: "Sacramento", cursive;
   color: #514538;
 }
-
 h2.content-header, h3.content-header, .subpage.content-header {
   color: #F8F57E;
   text-align: center;
 }
-
 h2.bakery-header, h3.bakery-header, .subpage.bakery-header {
   color: #F8F57E;
   text-align: center;
@@ -265,11 +246,9 @@ h4 {
   font-family: "Cormorant Infant", serif;
   color: #514538;
 }
-
 h4.content-article-label {
   font-size: 1.75rem;
 }
-
 h4.footer-label {
   font-family: "Sacramento", cursive;
   font-size: 2.25rem;
@@ -281,18 +260,15 @@ nav li, nav li a, h5, p {
   font-family: "Cormorant Infant", serif;
   color: #514538;
 }
-
 nav li.bakery-content, nav li a.bakery-content, h5.bakery-content, p.bakery-content {
   color: #C3A689;
   font-size: 1.5rem;
   text-align: center;
   line-height: 2rem;
 }
-
 nav li.bakery-content a, nav li a.bakery-content a, h5.bakery-content a, p.bakery-content a {
   color: #C3A689;
 }
-
 nav li.bakery-content a:hover, nav li.bakery-content a:focus, nav li a.bakery-content a:hover, nav li a.bakery-content a:focus, h5.bakery-content a:hover, h5.bakery-content a:focus, p.bakery-content a:hover, p.bakery-content a:focus {
   -webkit-text-decoration: underline #947046;
           text-decoration: underline #947046;
@@ -301,7 +277,6 @@ nav li.bakery-content a:hover, nav li.bakery-content a:focus, nav li a.bakery-co
 nav li, nav li a {
   text-decoration: none;
 }
-
 nav li:hover, nav li:focus, nav li a:hover, nav li a:focus {
   color: #947046;
 }
@@ -316,7 +291,6 @@ nav li:hover, nav li:focus, nav li a:hover, nav li a:focus {
           text-decoration: underline #947046;
   color: #514538;
 }
-
 .content a:hover, .content a:focus {
   -webkit-text-decoration: underline #514538;
           text-decoration: underline #514538;
@@ -329,7 +303,7 @@ header, footer {
 }
 
 header {
-  padding-top: .5rem;
+  padding-top: 0.5rem;
 }
 
 .logo {
@@ -469,7 +443,6 @@ footer {
   -ms-flex-negative: 0;
       flex-shrink: 0;
 }
-
 .hours :nth-child(even) {
   -ms-flex-preferred-size: 40%;
       flex-basis: 40%;
@@ -482,7 +455,6 @@ footer {
   -ms-flex-wrap: wrap;
       flex-wrap: wrap;
 }
-
 .locations .location-address {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -497,14 +469,12 @@ footer {
       -ms-flex-positive: 1;
           flex-grow: 1;
 }
-
 .locations .location-address h5 {
   padding: 3%;
   text-align: center;
   -ms-flex-preferred-size: 30%;
       flex-basis: 30%;
 }
-
 .locations .location-address p {
   -webkit-box-flex: 1;
       -ms-flex-positive: 1;
@@ -533,12 +503,10 @@ footer {
 .mobile-socials {
   visibility: hidden;
 }
-
 .mobile-socials a {
   color: #514538;
   font-size: 1.25rem;
 }
-
 .mobile-socials a:hover, .mobile-socials a:focus {
   color: #947046;
 }
@@ -552,24 +520,21 @@ footer {
   padding: 1rem 0rem 1rem 0rem;
   text-align: center;
 }
-
 .socials > i, .socials a {
   color: #F8F57E;
   font-size: 1.5rem;
   letter-spacing: 0.375rem;
 }
-
 .socials a:hover, .socials a:focus {
   color: #514538;
 }
 
-header {
-  background-color: #F8F57E;
-  width: 100%;
-  margin: auto;
-  padding-top: .5rem;
-}
-
+/*header {
+    background-color: $yellow;
+    width: 100%;
+    margin: auto;
+    padding-top: .5rem;
+}*/
 .logo {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -586,7 +551,7 @@ header {
   -webkit-box-pack: space-evenly;
       -ms-flex-pack: space-evenly;
           justify-content: space-evenly;
-  padding-bottom: .5rem;
+  padding-bottom: 0.5rem;
 }
 
 .menu {
@@ -621,7 +586,7 @@ header {
   left: 0;
   background-color: #F8F57EB3;
   white-space: nowrap;
-  padding: .5rem;
+  padding: 0.5rem;
   min-width: 16em;
   border-radius: 1rem;
   line-height: 3rem;
@@ -699,17 +664,16 @@ header {
     left: -100%;
     top: 0.5em;
   }
+
   .submenu {
     min-width: 16em;
   }
 }
-
 @media only screen and (max-width: 58.75em) {
   .menu li a {
     font-size: 1rem;
   }
 }
-
 @media only screen and (max-width: 50em) {
   .menu {
     -webkit-box-orient: vertical;
@@ -733,36 +697,43 @@ header {
     transition: 200ms transform cubic-bezier(0.36, 0.4, 0.42, 1.48) 100ms, 100ms opacity ease-in-out, 200ms -webkit-transform cubic-bezier(0.36, 0.4, 0.42, 1.48) 100ms;
     overflow-y: scroll;
   }
+
   .menu > li > a {
     font-size: 1.375rem;
     color: #514538;
   }
+
   .submenu > li > a {
     font-size: 1.25rem;
     color: #514538;
   }
+
   .submenu {
     top: 0;
     padding-left: 1.5em;
     border-left: 0.12em dotted #514538;
   }
+
   .submenu .submenu {
     left: 0;
     top: 0;
   }
+
   .submenu .submenu .submenu {
     left: 0;
     top: 0;
   }
+
   .menu > li:hover > a + .submenu,
-  .submenu > li:hover > a + .submenu {
+.submenu > li:hover > a + .submenu {
     position: relative;
   }
+
   .hamburger {
     width: 2em;
-    height: 0.25em;
+    height: 0.2em;
     display: block;
-    background: black;
+    background-color: #514538;
     position: relative;
     cursor: pointer;
     -webkit-transition: 0.2s -webkit-transform ease-in-out;
@@ -770,8 +741,9 @@ header {
     transition: 0.2s transform ease-in-out;
     transition: 0.2s transform ease-in-out, 0.2s -webkit-transform ease-in-out;
   }
+
   .hamburger::after,
-  .hamburger::before {
+.hamburger::before {
     content: "";
     position: absolute;
     left: 0;
@@ -783,23 +755,28 @@ header {
     transition: 0.2s transform ease-in-out;
     transition: 0.2s transform ease-in-out, 0.2s -webkit-transform ease-in-out;
   }
+
   .hamburger::after {
     top: 0.65em;
   }
+
   .hamburger::before {
     bottom: 0.65em;
   }
+
   .close::after,
-  .close::before {
+.close::before {
     top: 0;
     -webkit-transition: 0.2s -webkit-transform ease-in-out;
     transition: 0.2s -webkit-transform ease-in-out;
     transition: 0.2s transform ease-in-out;
     transition: 0.2s transform ease-in-out, 0.2s -webkit-transform ease-in-out;
   }
+
   .close::before {
     display: none;
   }
+
   .close {
     -webkit-transform: rotate(45deg);
             transform: rotate(45deg);
@@ -808,16 +785,17 @@ header {
     transition: 0.2s transform ease-in-out;
     transition: 0.2s transform ease-in-out, 0.2s -webkit-transform ease-in-out;
   }
+
   .close::after {
     -webkit-transform: rotate(-90deg);
             transform: rotate(-90deg);
   }
+
   /* reveal menu */
-  input[type="checkbox"]:checked + .menu {
+  input[type=checkbox]:checked + .menu {
     position: absolute;
     opacity: 1;
     -webkit-transform: scaleY(1);
             transform: scaleY(1);
   }
 }
-/*# sourceMappingURL=navbar.css.map */

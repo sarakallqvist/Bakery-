@@ -5,12 +5,12 @@
 @import 'header';
 @import 'footer';
 
-header {
+/*header {
     background-color: $yellow;
     width: 100%;
     margin: auto;
     padding-top: .5rem;
-}
+}*/
 
 .logo {
     display: flex;
@@ -172,9 +172,9 @@ header {
 
     .hamburger {
     width: 2em;
-    height: 0.25em;
+    height: .2em;
     display: block;
-    background: black;
+    background-color: $darkbrown;
     position: relative;
     cursor: pointer;
     transition: 0.2s transform ease-in-out;
