@@ -25,6 +25,9 @@
 .menu {
     display: flex;
     flex-direction: row;
+    width: 100%;
+    justify-content: space-evenly;
+    z-index: 9999;
 }
 .menu li {
     list-style: none;
@@ -50,13 +53,21 @@
     min-width: 16em;
     border-radius: 1rem;
     line-height: 3rem;
-    width:100%;
+    width: 100%;
 
     /* hide submenus */
     opacity: 0;
     transform: scaleY(0);
     transform-origin: top center;
 }
+
+.submenu ul {
+    display: flex;
+    flex-direction: column;
+    left: 100%;
+    height: max-content;
+}
+
 .submenu > li > a {
     padding: 0.8rem;
     font-size: rem(22px);
@@ -67,7 +78,7 @@
     list-style: none;
     margin: 0;
     padding: 0;
-    min-width:20rem;
+    min-width: 20rem;
 }
 .submenu .submenu .submenu {
     left: -100%;
@@ -84,6 +95,13 @@
     background-color: $yellow-70;
     color: $mediumbrown;
 }
+
+ul > .submenu li {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;    
+}
+
 
   /* Arrows */
 .expand {
