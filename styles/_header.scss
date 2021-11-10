@@ -16,12 +16,24 @@ header {
     display: flex;
     justify-content: center;
 }
-
+/*
 .nav-ellipsis {
     float: right;
     padding-right: 3%;
     visibility: hidden;
 }
+.checkbtn{
+    font-size: 30px;
+    color: white;
+    float: right;
+    line-height: 80px;
+    margin-right: 40px;
+    cursor: pointer;
+    display: none;
+  }
+  #check{
+    display: none;
+  }
 
 nav ul {
     display: flex;
@@ -78,3 +90,18 @@ ul ul ul{
     float:right;
     margin-right:1rem;
 }
+@media screen and (max-width: 600px) {
+    .nav-ellipsis {
+        float: right;
+        padding-right: 3%;
+        visibility: visible;
+        display: block;
+    }
+    a {
+        font-size: smaller;
+    }
+    .checkbtn{
+        display: block;
+      }
+}
+*/
