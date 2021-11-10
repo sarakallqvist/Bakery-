@@ -1,0 +1,11 @@
+@mixin transition-color {
+    transition: color 1s;
+}
+
+@mixin transition-bg {
+    transition: background-color 1s;
+}
+
+@mixin transition-underline {
+    transition: text-decoration 1s;
+}
