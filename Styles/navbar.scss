@@ -19,7 +19,6 @@
 .navbar {
     display: flex;
     justify-content: space-evenly;
-    padding-bottom: .5rem;
 }
 
 .menu {
@@ -35,7 +34,8 @@
 .menu li a {
     display: block;
     text-decoration: none;
-    padding: 3rem;
+    padding-top: 1rem;
+    padding-bottom: .5rem;
     color: $darkbrown;
     font-size: rem(28px);
 }
@@ -96,12 +96,11 @@
     color: $mediumbrown;
 }
 
-ul > .submenu li {
+.squish {
     display: flex;
     flex-wrap: wrap;
-    flex-direction: column;    
+    flex-direction: column;  
 }
-
 
   /* Arrows */
 .expand {
