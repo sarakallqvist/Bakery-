@@ -32,14 +32,16 @@ footer {
 
 .locations {
     display: flex;
+    flex-direction: row;
     flex-wrap: wrap;
     flex-grow: 1;
+    justify-content: space-evenly;
 
     .location-address {
         display: flex;
-        justify-content: space-evenly;
+        justify-content: center;
         align-items: center;
-        flex-basis: 50%;
+        flex-basis: 40%;
 
         h5 {
             padding: 3%;
