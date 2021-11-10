@@ -1,22 +1,96 @@
-@import 'rem-converter';
-@import 'colors';
-@import 'fonts';
-@import 'styling';
-@import 'header';
-@import 'footer';
-
-.carousel-control.left, .carousel-control.right {
-    background-image: none;
-    color: $mediumbrown;
+    justify-content: center;
+    text-shadow: 0 1px 2px rgba(0,0,0,.0);
 }
 
-.carousel-inner {
+.carousel-desc {
+    background-color: $yellow-70;
+    padding: 1%;
     border-radius: rem(20px);
+    text-align: center;
+
+    > p {
+        font-family: $cormorant;
+        font-size: rem(26px);
+
+    }
 }
 
-.carousel-caption {
-    display: flex;
-    flex-direction: column;
+.carousel-button {    
+    background-color: $mediumbrown-70;
+    padding: 2%;
+    margin: 1%;
+    max-width: max-content;
+    border-radius: rem(15px);
+    border: 1px solid $yellow;
+    text-decoration: none;
+    align-self: center;
+    flex-shrink: 0;
+
+    h5 {
+        color: $yellow;
+        font-weight: normal;
+    }
+
+    &:hover, &:focus {
+        @include transition-bg;
+        background-color: $mediumbrown;
+        text-decoration: none;
+    }
+}
+
+@media only screen and (max-width: 600px) {
+    .carousel,
+    .carousel-caption,
+    .carousel-inner,
+    .carousel-desc {
+        @include no-border;
+    }
+    .carousel {
+        padding-bottom: 5%;
+    }
+    .carousel-control.left, .carousel-control.right {
+        display: none;
+    }
+
+    .carousel-desc {
+        > p {
+            font-size: 1rem;
+        }
+    }
+
+    .item img {
+        min-height: rem(300px);
+        object-fit: cover;
+    }
+}
+
+
+.timestamp {
+    font-size: rem(18px);
+    color: $mediumbrown;
+    font-family: $cormorant;
+    font-weight: bold;
+    line-height: 1.5rem;
+    margin-left: .1rem;
+}
+
+.content-divider {
+        border-top: dashed 2px $yellow;
+        max-width: 30%;
+        margin: 1rem 0rem 1rem 0rem;
+}
+
+@media only screen and (max-width: 600px) {
+    .content-divider {
+        margin-left: 25%;
+        max-width: 50%;
+    }
+
+    .content-article-label, .timestamp {
+        text-align: center;
+        margin: 0;
+    }
+}
     text-shadow: 0 1px 2px rgba(0,0,0,.0);
 }
 

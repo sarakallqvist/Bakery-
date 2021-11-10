@@ -1,37 +1,3 @@
-@import 'transition-mixins';
-
-footer {
-    color: $mediumbrown;
-    margin-top: auto;
-}
-
-.mobile-flip {
-    display: flex;
-    flex-direction: row;
-}
-
-.footer-container {
-    display: flex;
-    flex-direction: row;
-    justify-content: space-evenly;
-}
-
-.hours {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-    align-items: baseline;
-    text-align: center;
-    max-width: 25%;
-    flex-shrink: 0;
-
-    :nth-child(even) {
-        flex-basis: 40%;
-    }
-}
-
-.locations {
-    display: flex;
     flex-direction: row;
     flex-wrap: wrap;
     flex-grow: 1;
