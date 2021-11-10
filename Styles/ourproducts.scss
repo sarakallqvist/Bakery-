@@ -65,10 +65,44 @@
     font-weight: bold;
     color: $darkbrown;
     background-color: $lightbrown-70;
-    max-width: 30%;
+
+    > button {
+        border: 0;
+    }    
 
     &:hover, &:focus {
         @include transition-bg;
         background-color: $lightbrown;
+        color: $darkbrown;
+
     }
 }
+
+.modal {
+    background-color: $lightbrown-70;
+}
+
+i {
+    padding-right: 1rem;
+    padding-top: 1rem;
+}
+
+.modal-body {
+    background-color: $yellow;
+    padding: 1rem;
+    text-align: center;
+    border-radius: 15px;
+    margin: auto;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    max-width: 80%;
+    color: $darkbrown;
+
+    > h4 {
+        font-size: rem(36px);
+        font-family: $cormorant;
+        font-weight: bold;
+        color: $darkbrown;
+    }
+}
+
