@@ -9,9 +9,7 @@
 // Basic styles for the bakery section - including the sub-styles for cakes, pastries and breads - are here.
 
 .hero-img {
-    height: rem(430px);
-    margin-bottom: 1rem;
-    background-size:cover;
+    height: rem(430px); 
     &.ourproducts {
         background-image: url(/Images/sidetable.jpg);
         background-position: bottom;
@@ -20,16 +18,31 @@
     &.cakes {
         background-image: url(/Images/carousels/rustic_cake.jpeg);
         background-position: center;
+<<<<<<< HEAD
+=======
+        background-repeat: no-repeat;
+        margin-top: 20px;
+>>>>>>> joshua-gallery-final
     }
 
     &.pastries {
         background-image: url(/Images/carousels/bakery_twists.jpg);
         background-position: center;
+<<<<<<< HEAD
+=======
+        margin-top: 20px;
+        background-repeat: no-repeat;
+>>>>>>> joshua-gallery-final
     }
 
     &.breads {
         background-image: url(/Images/carousels/rye.jpg);
         background-position: center;
+<<<<<<< HEAD
+=======
+        background-repeat: no-repeat;
+        margin-top: 20px;
+>>>>>>> joshua-gallery-final
     }
 }
 
@@ -44,22 +57,88 @@
     .cherry {
         background-image: url(/Images/cakes/cherry_cake.jpeg);
         background-position: center;
+<<<<<<< HEAD
+=======
+        background-size: cover;
+        background-repeat: no-repeat;
+>>>>>>> joshua-gallery-final
     }
 
     .blueberry {
         background-image: url(/Images/cakes/blueberry.jpeg);
         background-position: center;
+<<<<<<< HEAD
+=======
+        background-size: cover;
+>>>>>>> joshua-gallery-final
     }
 
     .strawberry {
         background-image: url(/Images/cakes/strawberry_cheesecake.jpeg);
         background-position: center;
+<<<<<<< HEAD
+=======
+        background-size: cover;
+>>>>>>> joshua-gallery-final
     }
 
 // Pastries
 
+<<<<<<< HEAD
 // Breads
 
+=======
+.bluelemon {
+    background-image: url(/Images/pastries/blueberry_lemon.jpeg);
+    background-position: center;
+    background-size: cover;
+}
+
+.croissant {
+    background-image: url(/Images/pastries/croissant_guys.jpeg);
+    background-position: center;
+    background-size: cover;
+}
+
+.fika {
+    background-image: url(/Images/pastries/fika_time.jpeg);
+    background-position: center;
+    background-size: cover;
+}
+
+.galette {
+    background-image: url(/Images/pastries/galette.jpeg);
+    background-position: center;
+    background-size: cover;
+}
+
+// Breads
+
+.bagels {
+    background-image: url(/Images/breads/bagels.jpg);
+    background-position: center;
+    background-size: cover;
+}
+
+.baguette {
+    background-image: url(/Images/breads/baguette.jpg);
+    background-position: center;
+    background-size: cover;
+}
+
+.brioche {
+    background-image: url(/Images/breads/brioche.jpg);
+    background-position: center;
+    background-size: cover;
+}
+
+.challah {
+    background-image: url(/Images/breads/challah.jpg);
+    background-position: center;
+    background-size: cover;
+}
+
+>>>>>>> joshua-gallery-final
 
 .product {
     text-decoration: none;

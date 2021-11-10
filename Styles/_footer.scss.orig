@@ -81,7 +81,10 @@ footer {
     a:hover, a:focus {
         @include transition-color;
         color: $mediumbrown;}
+<<<<<<< HEAD
     
+=======
+>>>>>>> joshua-gallery-final
     display: none;
 }
 
