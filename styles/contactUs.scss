@@ -45,9 +45,7 @@ input[type="text"], [type="email"], [type="tel"], [type="submit"], #category ,#m
   border-radius: 20px;
   outline: none;
   padding: 0 10px;
-  font-family: $josefins;
-  font-style: normal;
-  font-weight: normal;
+  font-family: $cormorant;
   font-size: 1rem;
   line-height: 1.6;
   letter-spacing: 2.8px;
@@ -61,7 +59,7 @@ input[type="text"], [type="email"], [type="tel"], [type="submit"], #category ,#m
   color: $lightbrown;
   font-family: $cormorant;
   font-weight: bold;
-  color: #7f5112;
+  color: $darkbrown;
 }
 input[type="submit"]{
   width: 100%;
@@ -70,7 +68,7 @@ input[type="submit"]{
   outline: none;
   cursor: pointer;
   background-color: $mediumbrown;
-  color:$yellow;
+  color: $yellow;
   font-size: 1.5rem;
   line-height: 1.6;
 }
