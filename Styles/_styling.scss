@@ -1,0 +1,111 @@
+@import 'transition-mixins';
+
+@mixin no-border {
+    border-radius: 0rem;
+    margin: auto; 
+    width: 100%;
+    height: 100%;
+    flex-grow: 1;
+}
+
+html {
+    height: 100vh;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: $darkbrown;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    min-height: 100vh;
+}
+.doily {
+    width: 100%;
+    height: rem(28px);
+    object-fit: cover;
+    
+    &.top {
+        background: url('../images/doily-top.png');
+    }
+
+    &.bottom {
+        background: url('../images/doily-bottom.png');
+    }
+}
+main {
+    display: flex;
+    flex-direction: column;
+    flex-grow: 1;
+    padding: .5rem;
+}
+
+section {
+    padding: 1rem;
+    width: 85%;
+    margin: auto;
+}
+
+
+.hero {
+    margin: auto;
+    text-align: center;
+}
+
+.hero-img {
+    background-size: cover;
+    height: 430px;
+    width: 100%;
+    border-radius: rem(15px);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    }
+
+.hero-box {
+    background-color: $yellow-70;
+    padding: 1%;
+    width: 45%;
+    border-radius: rem(20px);
+    text-align: center;
+
+    > p {
+        font-family: $cormorant;
+        font-size: rem(26px);
+    }
+
+    &.pill {
+        border-radius: rem(30px);
+        width: 50%;
+    }
+
+    &.label, &.label a {
+        font-family: $sacramento;
+        color: $darkbrown;
+        font-size: rem(48px);
+        text-decoration: none;
+
+        &:hover, &:focus {
+            background-color: $yellow;
+        }
+    }
+}
+
+.content {
+    background-color: $lightbrown;
+    margin: 1rem auto 1rem;
+    border-radius: rem(20px);
+    padding: 1rem;
+}
+
+.to-top {
+    color: $yellow;
+    margin: auto;
+    font-family: $cormorant;
+    font-size: 1.5rem;
+    padding-bottom: 1rem;
+    &a:hover, a:focus {
+        color: $lightbrown;
+    }
+}

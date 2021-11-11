@@ -1,0 +1,153 @@
+@import 'transition-mixins';
+
+footer {
+    color: $mediumbrown;
+    margin-top: auto;
+}
+
+.mobile-flip {
+    display: flex;
+    flex-direction: row;
+}
+
+.footer-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
+.hours {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: baseline;
+    text-align: center;
+    max-width: 25%;
+    flex-shrink: 0;
+
+    :nth-child(even) {
+        flex-basis: 40%;
+    }
+}
+
+.locations {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    flex-grow: 1;
+    justify-content: space-evenly;
+
+    .location-address {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-basis: 40%;
+
+        h5 {
+            padding: 3%;
+            text-align: center;
+            flex-basis: 20%;
+        }
+
+        p {
+            flex-grow: 1;
+            flex-basis: 50%;
+        }
+    }
+}
+
+.brown-separator {
+    border-right: dashed 2px $mediumbrown;
+}
+
+.wrapper {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+.footer-logo {
+    scale: calc(.75);
+}
+
+.mobile-socials {
+        padding-bottom: 3%;
+        margin-top: rem(-20px);
+    a {
+        color: $darkbrown;
+        font-size: rem(20px);}
+
+    a:hover, a:focus {
+        @include transition-color;
+        color: $mediumbrown;}
+    display: none;
+}
+
+// Desktop-size socials at very bottom
+
+.socials {
+    margin-top: 1%;
+    background-color: $mediumbrown;
+    height: max-content;
+    padding: 1rem 0rem 1rem 0rem;
+    text-align: center;
+
+    > i, a {
+        color: $yellow;
+        font-size: rem(24px);
+        letter-spacing: rem(6px);
+    }
+
+    a:hover, a:focus {
+        @include transition-color;
+        color: $darkbrown;
+    }
+}
+
+//Media Queries
+
+@media only screen and (max-width: 600px) {
+    footer {margin-top: 1rem; }
+    .mobile-flip {
+        flex-direction: column-reverse;
+        padding-bottom: 5%;
+    }
+    .footer-container {
+        flex-direction: column;
+    }
+    .footer-label {
+        padding-top: 1rem;
+        padding-bottom: .5rem;
+    }
+    .hours {
+        max-width: 95%;
+        justify-content: space-around;}
+    .socials {display: none;}
+    .locations { 
+        flex-basis: 100%;
+        flex-direction: column;}
+    .location-address {
+        display: flex;
+        justify-content: center;
+        flex: column;
+        margin: auto;
+        text-align: center;
+        flex-wrap: wrap;
+        padding-top: 1%;
+        > p {
+            flex-basis: 100%;
+            width: 400px;
+        }
+    }
+
+    .brown-separator {
+        border-bottom: dashed 2px $mediumbrown;
+        max-width: 50%;
+        padding-bottom: 1rem;
+        border-right: none;}
+    
+    .wrapper {flex-direction: column;
+        margin: auto;}
+    .mobile-socials {display: block;}
+}
