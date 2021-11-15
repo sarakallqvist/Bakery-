@@ -5,12 +5,8 @@
 @import 'header';
 @import 'footer';
 
-// header {
-//     background-color: $yellow;
-//     width: 100%;
-//     margin: auto;
-//     padding-top: .5rem;
-// }
+// The most workable nav Sara was able to find used a hamburger instead of a kebab. source:
+
 
 .logo {
     display: flex;
@@ -19,6 +15,7 @@
 .navbar {
     display: flex;
     justify-content: space-evenly;
+    padding-bottom: 1rem;
 }
 
 .menu {
@@ -87,12 +84,12 @@
 
 .menu > li:hover > a,
 .submenu > li:hover > a {
-    background-color: $yellow-70;
+    background-color: $lightbrown-20;
     color: $mediumbrown;
     border-radius: 1rem;
 }
 .menu > li:hover > a {
-    background-color: $yellow-70;
+    background-color: $lightbrown-20;
     color: $mediumbrown;
 }
 
@@ -139,16 +136,19 @@
     }
 }
 
+//Roz says: There's a 1-pixel margin on each side that I just cannot get rid of here without doing pixel-by-pixel nudging.
+
 @media only screen and (max-width: 50em) {
 
     .menu {
     flex-flow: column;
     position: absolute;
-    background: $yellow-70;
-    top: 26rem;
+    background: $yellow;
+    top: 4rem;
     left: 0;
     right: 0;
     height: 100vh;
+    padding: 2%;
     opacity: 0;
     transform: scaleY(-0);
     transform-origin: top center;

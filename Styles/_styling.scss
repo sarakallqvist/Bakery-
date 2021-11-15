@@ -131,6 +131,6 @@ section {
 
     .content {
         @include no-border;
-        width: 100vw;
+        > p {text-align: justify;}
     }
 }
