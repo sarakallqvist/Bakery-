@@ -58,60 +58,59 @@
         <div class="doily top"> </div>
     </header>
 <main>
-    
-        <h3 class="content-header">Contact Us</h3>
-    
-        <div class="contact_Us_Container">
-            <p class="contact_Us_Text contact_Us_Container_Text01">Send us a message</p>
-    
-                 <form class="contact_Us_Form_Container" id="form" action="#" method="GET" >
-    
-                     <div class="contact_Us_Form_Container_Name form_Error" id="personName">
-                         <label for="name"></label>
-                         <input  type="text" name="name" id="name" placeholder="Your Name" >
-                     </div>
-    
-                     <div class="contact_Us_Form_Container_Email form_Error" id="personEmail" >
-                         <label for="email"></label>
-                         <input type="text" name="email" id="email" placeholder="Your Email" novalidate>
-                     </div>
-    
-                     <div class="contact_Us_Form_Container_Phone form_Error" id="personPhone">
-                         <label for="phone"></label>
-                         <input type="tel" name="phone" id="phone" placeholder="Your Number" min="0" max="9">
-                     </div>
-    
-                     <div class="contact_Us_Form_Container_Category form_Error">
-                         <label for="category"></label>
-                         <select name="category" id="category" >
-                             <option value="" disabled selected>What is your message regarding?.</option>
-                             <option value="#">Food we sell</option>
-                             <option value="">About us</option>
-                             <option value="">General inquiry</option>
-                             <option value="">Bakery Tour</option>
-                             <option value="">Website error</option>
-                         </select>
-                     </div>
-    
-                     <div class="contact_Us_Form_Container_Message form_Error">
-                         <label for="message"></label>
-                         <textarea type="text" name="message" id="message" placeholder ="Your Message" ></textarea>
-                     </div>
-    
-                     <div class="contact_Us_Form_Container_Btn">
-                         <input type="submit" name="" value="Submit">
-                     </div>
-                 </form>
-    
-            <p class="contact_Us_Text contact_Us_Container_Text02">We love to hear from you!</p>
-            <p class="contact_Us_Text contact_Us_Container_Text03">We try to answer all inquiries within 24 hours. Thanks in
-             advance for contacting us - we value your comments and suggestions. Do you need to place a large order, or arrange an event
-             please feel free to call us directly, or drop in at either of our locations. <br>
-    
-             Please note any allergy information is posted on our
-             ingredient listing with each product </p>
-             <img class="Contact_Us_Img01" src="images/contact_Us_Img01.png" alt="Image of kitchen ingredients">
+    <h3 class="content-header">Contact Us</h3>
+<section>
+    <div class="content">
+        <div class="content-aside">
+            <h4 class="content-article-label">We love to hear from you!</h4>
+            <p>We try to answer all inquiries within 24 hours. Thanks in advance for contacting us - we value your comments and suggestions. Do you need to place a large order, or arrange an event please feel free to call us directly, or drop in at either of our locations.</p>
+            
+            <p>Please note any allergy information is posted on our ingredient listing with each product.</p>
+
+            <img class="Contact_Us_Img01" src="images/contact_Us_Img01.png" alt="Image of kitchen ingredients">
         </div>
+        <div class="ben-form-grid">
+            <h4 class="content-article-label">Send us a message</h4>
+            <div class="contact_Us_Container">
+                <form class="contact_Us_Form_Container" id="form" action="#" method="GET" >
+                <div class="contact_Us_Form_Container_Name form_Error" id="personName">
+                    <label for="name"></label>
+                    <input  type="text" name="name" id="name" placeholder="Your Name" >
+                </div>
+                <div class="contact_Us_Form_Container_Email form_Error" id="personEmail" >
+                    <label for="email"></label>
+                    <input type="text" name="email" id="email" placeholder="Your Email" novalidate>
+                </div>
+                <div class="contact_Us_Form_Container_Phone form_Error" id="personPhone">
+                    <label for="phone"></label>
+                    <input type="tel" name="phone" id="phone" placeholder="Your Number" min="0" max="9">
+                </div>
+                <div class="contact_Us_Form_Container_Category form_Error">
+                    <label for="category"></label>
+                    <select name="category" id="category" >
+                        <option value="" disabled selected>What is your message regarding?</option>
+                        <option value="#">Food we sell</option>
+                        <option value="">About us</option>
+                        <option value="">General inquiry</option>
+                        <option value="">Bakery Tour</option>
+                        <option value="">Website error</option>
+                    </select>
+                </div>
+                <div class="contact_Us_Form_Container_Message form_Error">
+                    <label for="message"></label>
+                    <textarea type="text" name="message" id="message" placeholder ="Your Message" ></textarea>
+                </div>
+                <div class="contact_Us_Form_Container_Btn">
+                    <input type="submit" name="" value="Submit">
+                </div>
+            
+            </form>
+        </div>
+        </div>
+    </div>
+</section>
+             <!-- Roz: removed extra copy (class Text04)for smaller resolutions to follow DRY rule. -->
+        
         <div class="to-top">
             <a href="#top">Back to top
                     <i class="fas fa-long-arrow-alt-up"></i>

@@ -100,6 +100,29 @@ section {
     padding: 1rem;
 }
 
+.carousel-button, input[type="submit"] {    
+    background-color: $mediumbrown-70;
+    padding: 2%;
+    margin: 1%;
+    max-width: max-content;
+    border-radius: rem(15px);
+    border: 1px solid $yellow;
+    text-decoration: none;
+    align-self: center;
+    flex-shrink: 0;
+
+    h5 {
+        color: $yellow;
+        font-weight: normal;
+    }
+
+    &:hover, &:focus {
+        @include transition-bg;
+        background-color: $mediumbrown;
+        text-decoration: none;
+    }
+}
+
 .to-top {
     margin: auto;
     padding-bottom: 1rem;
@@ -131,6 +154,10 @@ section {
 
     .content {
         @include no-border;
-        > p {text-align: justify;}
+        > p {text-align: justify;
+            padding-bottom: 1rem;}
+        > .content-article-label {
+            text-align: center;
+        }
     }
 }

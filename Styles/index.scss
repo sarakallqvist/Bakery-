@@ -33,29 +33,6 @@
     }
 }
 
-.carousel-button {    
-    background-color: $mediumbrown-70;
-    padding: 2%;
-    margin: 1%;
-    max-width: max-content;
-    border-radius: rem(15px);
-    border: 1px solid $yellow;
-    text-decoration: none;
-    align-self: center;
-    flex-shrink: 0;
-
-    h5 {
-        color: $yellow;
-        font-weight: normal;
-    }
-
-    &:hover, &:focus {
-        @include transition-bg;
-        background-color: $mediumbrown;
-        text-decoration: none;
-    }
-}
-
 @media only screen and (max-width: 600px) {
     .carousel,
     .carousel-inner,
