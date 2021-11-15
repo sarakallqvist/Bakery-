@@ -1,6 +1,7 @@
 
 @import 'rem-converter';
 @import 'colors';
+@import 'transition-mixins';
 @import url('https://fonts.googleapis.com/css2?family=Cormorant+Infant:wght@400;700&family=Raleway&family=Sacramento&display=swap');
 
 $sacramento: "Sacramento", cursive;
@@ -17,7 +18,7 @@ $josefins: "Josefin Sans", sans-serif;
 h1 {
     text-align: center;
   }
-
+  
 h2 {
     font-size: rem(48px);
 }
@@ -67,6 +68,9 @@ h4 {
         text-align: center;
     }
 }
+@media only screen and (max-width: 600px) {
+    h1, h2, h3 {scale: calc(.75);}
+}
 
 nav li, nav li a, h5, p {
     font-family: $cormorant;
@@ -96,9 +100,10 @@ nav li, nav li a {
     }
 }
 
-.content > p {
+.content > p, a {
     font-family: $raleway;
     line-height: 1.5rem;
+    font-size: 1rem;
 }
 
 .content a {
@@ -107,5 +112,6 @@ nav li, nav li a {
 
     &:hover, &:focus {
         text-decoration: underline $darkbrown;
+        @include transition-underline;
     }
 }

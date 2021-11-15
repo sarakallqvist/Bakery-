@@ -205,18 +205,20 @@ input[type="submit"] {
     }
   }
 }
-.back_to_top_container {
-  display: flex;
-  justify-content: center;
-  margin: 20px 0 50px 0;
-  .fas {
-    color: white;
-  }
-  .back_To_Top_Text {
-    color: $yellow;
-    text-decoration: none;
-  }
-}
+
+// Commented out - this already exists in the styling partial.
+// .back_to_top_container {
+//   display: flex;
+//   justify-content: center;
+//   margin: 20px 0 50px 0;
+//   .fas {
+//     color: white;
+//   }
+//   .back_To_Top_Text {
+//     color: $yellow;
+//     text-decoration: none;
+//   }
+// }
 
 // container styling and placing ends here
 

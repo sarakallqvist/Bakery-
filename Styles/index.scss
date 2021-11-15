@@ -107,10 +107,9 @@
 }
 
 @media only screen and (max-width: 600px) {
-    .content {
-        @include no-border;
-        padding: 1rem;
-    }
+
+    .carousel > * {
+        min-width: 100vw;}
 
     .content-divider {
         margin-left: 25%;
