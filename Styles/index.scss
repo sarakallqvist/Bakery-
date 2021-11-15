@@ -57,24 +57,22 @@
 }
 
 @media only screen and (max-width: 600px) {
-    section,
     .carousel,
-    .carousel-caption,
     .carousel-inner,
     .carousel-desc {
         @include no-border;
     }
     .carousel {
         padding-bottom: 5%;
+        padding-top: 5%;
     }
     .carousel-control.left, .carousel-control.right {
         display: none;
     }
 
+    //I still couldn't get this to stretch for the full width without big gross margins :/ Compromised and kept it to the center instead.
     .carousel-caption {
-        height: 70%;
-        margin-left: -3rem;
-        width: 100%;
+        flex-basis: 100%;
     }
 
     .carousel-desc {
@@ -107,9 +105,6 @@
 }
 
 @media only screen and (max-width: 600px) {
-
-    .carousel > * {
-        min-width: 100vw;}
 
     .content-divider {
         margin-left: 25%;

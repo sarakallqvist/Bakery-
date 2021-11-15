@@ -81,7 +81,8 @@ footer {
     a:hover, a:focus {
         @include transition-color;
         color: $mediumbrown;}
-    display: none;
+    
+        display: none;
 }
 
 // Desktop-size socials at very bottom
@@ -128,16 +129,13 @@ footer {
         flex-basis: 100%;
         flex-direction: column;}
     .location-address {
-        display: flex;
-        justify-content: center;
-        flex: column;
         margin: auto;
         text-align: center;
         flex-wrap: wrap;
+        flex-direction: column;
         padding-top: 1%;
-        > p {
+        > h5, p {
             flex-basis: 100%;
-            width: 400px;
         }
     }
 
